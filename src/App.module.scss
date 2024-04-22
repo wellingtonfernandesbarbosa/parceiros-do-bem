@@ -2,9 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
-  
-  &__AppLogo {
+  width: 98vw;
+  margin: auto;
+  padding: 2em 0;
+  gap: 2em;
+}
+
+.Header {
+  &__Logo {
     height: 13rem;
     width: auto;
   }
