@@ -3,10 +3,13 @@ import WhatsappLogo from "./assets/whatsapp.png";
 import FacebookLogo from "./assets/facebook.png";
 import InstagramLogo from "./assets/instagram.png";
 import Phone from "./assets/phone.png";
-import Mail from "./assets/mail.png"
+import Mail from "./assets/mail.png";
 import styles from "./App.module.scss";
+import { useState } from "react";
 
 function App() {
+  const [pixCopy, setPixCopy] = useState(false);
+
   return (
     <div className={styles.App}>
       <header className={styles.Header}>
@@ -35,12 +38,25 @@ function App() {
 
         <section className={styles.Section}>
           <h2 className={styles.Section__Title}>Como Você Pode Ajudar</h2>
-          <p className={styles.Section__Description}>Junte-se a nós como voluntário, faça uma doação de produtos ou roupas para nosso bazar beneficente, ou contribua com uma doação financeira através do PIX para ajudar a financiar nossas iniciativas.</p>
+          <p className={styles.Section__Description}>Seja um agente de mudança! Você pode ajudar de diversas maneiras:</p>
+          <ul className={styles.Section__Description__List}>
+            <li>Doe: Sua doação, seja em dinheiro, produtos ou serviços, é fundamental para que possamos continuar transformando vidas. Clique no botão Doar para escolher a forma de doação que mais lhe convier.</li>
+            <li>Seja voluntário: Dedique seu tempo e talento para auxiliar em nossas ações. Temos diversas oportunidades para você se envolver, de acordo com suas habilidades e interesses. Clique no botão Seja Voluntário para se cadastrar.</li>
+            <li>Divulgue: Compartilhe nossa causa nas redes sociais e com seus amigos e familiares. Ajude-nos a alcançar mais pessoas e multiplicar o impacto do nosso trabalho. Clique no botão Compartilhar para divulgar nossa página.</li>
+          </ul>
           <p className={styles.Section__Description}>
             Nosso PIX(CNPJ):{" "}
-            <span className={styles.Section__Description__Pix} onClick={() => navigator.clipboard.writeText("07608255000180")}>
+            <span
+              className={styles.Section__Description__Pix}
+              onClick={() => {
+                navigator.clipboard.writeText("07608255000180");
+                setPixCopy(true);
+                setTimeout(() => setPixCopy(false), 2000);
+              }}
+            >
               07608255000180
             </span>
+            {pixCopy && <p className={styles.Section__Description__Pix__Copied}>  Chave PIX copiada!</p>}
           </p>
         </section>
       </main>
@@ -48,25 +64,21 @@ function App() {
       <footer className={styles.Footer}>
         <div className={styles.Footer__Social}>
           <a href="https://wa.me/5531986050661" target="_blank" rel="noopener noreferrer" className={styles.Footer__SocialLink}>
-            <img src={WhatsappLogo} alt="WhatsApp" className={styles.Footer__SocialLink__SocialIcon} />
+            <img src={WhatsappLogo} alt="WhatsApp" className={styles.Footer__SocialIcon} />
             <span>WhatsApp</span>
           </a>
-
           <a href="https://www.facebook.com/people/Ong-Parceiros-do-Bem/100083482865397/" target="_blank" rel="noopener noreferrer" className={styles.Footer__SocialLink}>
             <img src={FacebookLogo} alt="Facebook" className={styles.Footer__SocialLink__SocialIcon} />
             <span>Facebook</span>
           </a>
-
           <a href="https://www.instagram.com/ongparceirosdobem_" target="_blank" rel="noopener noreferrer" className={styles.Footer__SocialLink}>
             <img src={InstagramLogo} alt="Instagram" className={styles.Footer__SocialLink__SocialIcon} />
             <span>Instagram</span>
           </a>
-
           <a href="tel:31986050661" className={styles.Footer__SocialLink}>
             <img src={Phone} alt="Phone" className={styles.Footer__SocialLink__SocialIcon} />
             <span>(31) 98605-0661</span>
           </a>
-
           <a href="mailto:parceirosdobemvespasiano@gmail.com" className={styles.Footer__SocialLink}>
             <img src={Mail} alt="E-mail" className={styles.Footer__SocialLink__SocialIcon} />
             <span>parceirosdobemvespasiano@gmail.com</span>

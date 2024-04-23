@@ -22,8 +22,22 @@
 .Main {
   .Section {
     &__Description {
+      &__List {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
       &__Pix {
         cursor: pointer;
+
+        &__Copied {
+          color: green;
+          font-weight: 500;
+          font-size: 0.8rem;
+          margin: 0;
+          padding: 0.5rem 0;
+          text-align: center;
+        }
       }
       
       &__Pix:active {
