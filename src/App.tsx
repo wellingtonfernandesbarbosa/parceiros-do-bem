@@ -1,4 +1,5 @@
 import Logo from "./assets/logo.png";
+import WhatsappLogo from "./assets/whatsapp.png";
 import FacebookLogo from "./assets/facebook.png";
 import InstagramLogo from "./assets/instagram.png";
 import Phone from "./assets/phone.png";
@@ -37,7 +38,7 @@ function App() {
           <p className={styles.Section__Description}>Junte-se a nós como voluntário, faça uma doação de produtos ou roupas para nosso bazar beneficente, ou contribua com uma doação financeira através do PIX para ajudar a financiar nossas iniciativas.</p>
           <p className={styles.Section__Description}>
             Nosso PIX(CNPJ):{" "}
-            <span className={styles.Pix} onClick={() => navigator.clipboard.writeText("07608255000180")}>
+            <span className={styles.Section__Description__Pix} onClick={() => navigator.clipboard.writeText("07608255000180")}>
               07608255000180
             </span>
           </p>
@@ -46,23 +47,32 @@ function App() {
 
       <footer className={styles.Footer}>
         <div className={styles.Footer__Social}>
+          <a href="https://wa.me/5531986050661" target="_blank" rel="noopener noreferrer" className={styles.Footer__SocialLink}>
+            <img src={WhatsappLogo} alt="WhatsApp" className={styles.Footer__SocialLink__SocialIcon} />
+            <span>WhatsApp</span>
+          </a>
+
           <a href="https://www.facebook.com/people/Ong-Parceiros-do-Bem/100083482865397/" target="_blank" rel="noopener noreferrer" className={styles.Footer__SocialLink}>
-            <img src={FacebookLogo} alt="Facebook" className={styles.Footer__SocialIcon} />
+            <img src={FacebookLogo} alt="Facebook" className={styles.Footer__SocialLink__SocialIcon} />
             <span>Facebook</span>
           </a>
+
           <a href="https://www.instagram.com/ongparceirosdobem_" target="_blank" rel="noopener noreferrer" className={styles.Footer__SocialLink}>
-            <img src={InstagramLogo} alt="Instagram" className={styles.Footer__SocialIcon} />
+            <img src={InstagramLogo} alt="Instagram" className={styles.Footer__SocialLink__SocialIcon} />
             <span>Instagram</span>
           </a>
+
           <a href="tel:31986050661" className={styles.Footer__SocialLink}>
-            <img src={Phone} alt="Phone" className={styles.Footer__SocialIcon} />
+            <img src={Phone} alt="Phone" className={styles.Footer__SocialLink__SocialIcon} />
             <span>(31) 98605-0661</span>
           </a>
+
           <a href="mailto:parceirosdobemvespasiano@gmail.com" className={styles.Footer__SocialLink}>
-            <img src={Mail} alt="E-mail" className={styles.Footer__SocialIcon} />
+            <img src={Mail} alt="E-mail" className={styles.Footer__SocialLink__SocialIcon} />
             <span>parceirosdobemvespasiano@gmail.com</span>
           </a>
         </div>
+
         <div className={styles.Footer__Location}>
           <h3 className={styles.Footer__Location__Title}>Localização</h3>
           <a href="https://www.google.com/maps/place/ONG+Parceiros+do+Bem/@-19.7488302,-43.9529003,15z/data=!4m6!3m5!1s0xa68905c244f699:0x5910ddc10081235a!8m2!3d-19.7488302!4d-43.9529003!16s%2Fg%2F11ss57yqx0?entry=ttu">
