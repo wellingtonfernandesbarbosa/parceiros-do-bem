@@ -26,6 +26,12 @@
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
+        padding: 0;
+
+        &__CallToAction {
+          text-transform: uppercase;
+          font-weight: 500;
+        }
       }
       &__Pix {
         cursor: pointer;
@@ -81,7 +87,7 @@
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 435px) {
   .Main,
   .Footer {
     width: 94%;

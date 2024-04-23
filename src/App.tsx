@@ -40,9 +40,17 @@ function App() {
           <h2 className={styles.Section__Title}>Como Você Pode Ajudar</h2>
           <p className={styles.Section__Description}>Seja um agente de mudança! Você pode ajudar de diversas maneiras:</p>
           <ul className={styles.Section__Description__List}>
-            <li>Doe: Sua doação, seja em dinheiro, produtos ou serviços, é fundamental para que possamos continuar transformando vidas. Clique no botão Doar para escolher a forma de doação que mais lhe convier.</li>
-            <li>Seja voluntário: Dedique seu tempo e talento para auxiliar em nossas ações. Temos diversas oportunidades para você se envolver, de acordo com suas habilidades e interesses. Clique no botão Seja Voluntário para se cadastrar.</li>
-            <li>Divulgue: Compartilhe nossa causa nas redes sociais e com seus amigos e familiares. Ajude-nos a alcançar mais pessoas e multiplicar o impacto do nosso trabalho. Clique no botão Compartilhar para divulgar nossa página.</li>
+            <li>
+              <span className={styles.Section__Description__List__CallToAction}>Seja voluntário</span>: Dedique seu tempo e talento para auxiliar em nossas ações. Temos diversas oportunidades para você se envolver, de acordo com suas habilidades e
+              interesses. Clique no botão Seja Voluntário para se cadastrar.
+            </li>
+            <li>
+              <span className={styles.Section__Description__List__CallToAction}>Doe</span>: Sua doação, seja em dinheiro, produtos ou serviços, é fundamental para que possamos continuar transformando vidas. Clique no botão Doar para escolher a forma de
+              doação que mais lhe convier.
+            </li>
+            <li>
+              <span className={styles.Section__Description__List__CallToAction}>Divulgue</span>: Compartilhe nossa causa nas redes sociais e com seus amigos e familiares. Ajude-nos a alcançar mais pessoas e multiplicar o impacto do nosso trabalho. Clique no botão Compartilhar para divulgar nossa página.
+            </li>
           </ul>
           <p className={styles.Section__Description}>
             Nosso PIX(CNPJ):{" "}
@@ -56,7 +64,7 @@ function App() {
             >
               07608255000180
             </span>
-            {pixCopy && <p className={styles.Section__Description__Pix__Copied}>  Chave PIX copiada!</p>}
+            {pixCopy && <p className={styles.Section__Description__Pix__Copied}> Chave PIX copiada!</p>}
           </p>
         </section>
       </main>
