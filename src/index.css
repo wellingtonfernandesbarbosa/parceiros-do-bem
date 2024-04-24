@@ -18,6 +18,10 @@
   --h5-size: 1.25rem;
   --h6-size: 1rem;
 
+  --primary-color: #7DC8E5;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

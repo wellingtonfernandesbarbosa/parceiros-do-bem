@@ -10,6 +10,27 @@ import { useState } from "react";
 function App() {
   const [pixCopy, setPixCopy] = useState(false);
 
+  const userAgent = navigator.userAgent.toLowerCase();
+
+  const shareContent = () => {
+    if (navigator.share) {
+      navigator
+        .share({
+          title: "Parceiros do Bem",
+          text: "Parceiros do Bem: Transformando Vidas Através do Desenvolvimento Humano",
+          url: "https://parceiros-do-bem.vercel.app/",
+        })
+        .then(() => console.log("Successful share"))
+        .catch((error) => console.log("Error sharing", error));
+    }
+  };
+
+  const copyPix = () => {
+    navigator.clipboard.writeText("07608255000180");
+    setPixCopy(true);
+    setTimeout(() => setPixCopy(false), 3000);
+  };
+
   return (
     <div className={styles.App}>
       <header className={styles.Header}>
@@ -36,42 +57,46 @@ function App() {
         <section className={styles.Section}>
           <h2 className={styles.Section__Title}>Cursos Profissionalizantes</h2>
           <p className={styles.Section__Description}>
-            Oferecemos cursos gratuitos nas áreas de cuidados com idosos, beleza, informática, idioma e muito mais, preparando os participantes para o mercado de trabalho e promovendo sua autonomia financeira. Nossos cursos já beneficiaram mais de 500 pessoas, aumentando
-            suas chances de conseguir um emprego e melhorar sua qualidade de vida.
+            Oferecemos cursos gratuitos nas áreas de cuidados com idosos, beleza, informática, idioma e muito mais, preparando os participantes para o mercado de trabalho e promovendo sua autonomia financeira. Nossos cursos já beneficiaram mais de 500
+            pessoas, aumentando suas chances de conseguir um emprego e melhorar sua qualidade de vida.
           </p>
         </section>
 
-        <section className={styles.Section}>
-          <h2 className={styles.Section__Title}>Como Você Pode Ajudar</h2>
-          <p className={styles.Section__Description}>Seja um agente de mudança! Você pode ajudar de diversas maneiras:</p>
-          <ul className={styles.Section__Description__List}>
+        <section className={styles.Donate}>
+          <h2 className={styles.Donate__Title}>Como Você Pode Ajudar</h2>
+          <p className={styles.Donate__Description}>Seja um agente de mudança! Você pode ajudar de diversas maneiras:</p>
+          <ul className={styles.Donate__Description__List}>
             <li>
-              <span className={styles.Section__Description__List__CallToAction}>Seja voluntário</span>: Dedique seu tempo e talento para auxiliar em nossas ações. Temos diversas oportunidades para você se envolver, de acordo com suas habilidades e
+              <span className={styles.Donate__Description__List__CallToAction}>Seja voluntário</span>: Dedique seu tempo e talento para auxiliar em nossas ações. Temos diversas oportunidades para você se envolver, de acordo com suas habilidades e
               interesses. Clique no botão Seja Voluntário para se cadastrar.
             </li>
             <li>
-              <span className={styles.Section__Description__List__CallToAction}>Doe</span>: Sua doação, seja em dinheiro, produtos ou serviços, é fundamental para que possamos continuar transformando vidas. Clique no botão Doar para escolher a forma de
+              <span className={styles.Donate__Description__List__CallToAction}>Doe</span>: Sua doação, seja em dinheiro, produtos ou serviços, é fundamental para que possamos continuar transformando vidas. Clique no botão Doar para escolher a forma de
               doação que mais lhe convier.
             </li>
-            <li>
-              <span className={styles.Section__Description__List__CallToAction}>Divulgue</span>: Compartilhe nossa causa nas redes sociais e com seus amigos e familiares. Ajude-nos a alcançar mais pessoas e multiplicar o impacto do nosso trabalho. Clique
-              no botão Compartilhar para divulgar nossa página.
-            </li>
+            {!userAgent.includes("firefox") && (
+              <li>
+                <span className={styles.Donate__Description__List__CallToAction}>Divulgue</span>: Compartilhe nossa causa nas redes sociais e com seus amigos e familiares. Ajude-nos a alcançar mais pessoas e multiplicar o impacto do nosso trabalho. Clique
+                no botão Compartilhar para divulgar nossa página.
+              </li>
+            )}
           </ul>
-          <p className={styles.Section__Description}>
-            Nosso PIX(CNPJ):{" "}
-            <span
-              className={styles.Section__Description__Pix}
-              onClick={() => {
-                navigator.clipboard.writeText("07608255000180");
-                setPixCopy(true);
-                setTimeout(() => setPixCopy(false), 2000);
-              }}
-            >
-              07608255000180
-            </span>
-            {pixCopy && <p className={styles.Section__Description__Pix__Copied}> Chave PIX copiada!</p>}
-          </p>
+          <ul className={styles.Donate__Description__ButtonList}>
+            <li>
+              <button>
+                <a href="https://wa.me/5531986050661?text=Olá! Gostaria de me voluntariar para ajudar a ONG Parceiros do Bem.">Seja Voluntário</a>
+              </button>
+            </li>
+            <li>
+              <button onClick={copyPix}>Doar</button>
+            </li>
+            {!userAgent.includes("firefox") && (
+              <li>
+                <button onClick={shareContent}>Compartilhar</button>
+              </li>
+            )}
+            {pixCopy && <p className={styles.Donate__Description__Pix__Copied}> Chave PIX(CNPJ) copiada com sucesso!</p>}
+          </ul>
         </section>
       </main>
 

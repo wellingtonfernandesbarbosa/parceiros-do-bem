@@ -25,6 +25,19 @@
       &__List {
         display: flex;
         flex-direction: column;
+      }
+      
+      &__Pix:active {
+        color: green;
+      }
+    }
+  }
+
+  .Donate {
+    &__Description {
+      &__List {
+        display: flex;
+        flex-direction: column;
         gap: 0.5rem;
         padding: 0;
 
@@ -33,21 +46,47 @@
           font-weight: 500;
         }
       }
+
+      &__ButtonList {
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        gap: 0.5rem;
+        
+        li {
+          button {
+            height: 56px;
+            padding: 0 24px;
+            font-size: 1em;
+
+            font-weight: 500;
+            border-radius: 8px;
+            background-color: #7dc8e5;
+            border: 1.5px solid black;
+          }
+
+          button:active {
+            background-color: #0a6e9b;
+            color: var( --color-white);
+          }
+        }
+      }
+
       &__Pix {
         cursor: pointer;
 
         &__Copied {
-          color: green;
-          font-weight: 500;
+          color: var(--color-black);
+          background-color: rgba($color: green, $alpha: 0.6);
+          border: 1px solid green;
+          border-radius: 8px;
+          width: 90%;
+          font-weight: 400;
           font-size: 0.8rem;
-          margin: 0;
-          padding: 0.5rem 0;
+          margin: auto;
+          padding: 0.8em;
           text-align: center;
         }
-      }
-      
-      &__Pix:active {
-        color: green;
       }
     }
   }
@@ -57,11 +96,10 @@
   width: 80%;
 
   &__Social {
-    
     &__Title {
       display: inline-block;
     }
-    
+
     &__SocialLinks {
       display: flex;
       flex-wrap: wrap;
@@ -93,6 +131,45 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .Donate {
+    &__Description {
+      &__ButtonList {
+        button {
+          height: 48px;
+          padding: 0 16px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 530px) {
+  
+  .Donate {
+    &__Description {
+      &__ButtonList {
+        flex-direction: column;
+        gap: 0.5rem;
+
+        li {
+          width: 90%;
+          margin: auto;
+
+          button {
+            width: 100%;
+            margin: auto;
+            height: 32px;
+            font-size: 12px;
+            border-radius: 16px;
+            background-color: aqua;
+          }
+        }
+      }
+    }
+  }
+}
 
 @media screen and (max-width: 435px) {
   .Main,
