@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   margin: auto;
-  padding: 2em 0;
   gap: 2em;
 }
 
@@ -104,9 +103,11 @@
 }
 
 .Footer {
-  width: 80%;
+  width: 100%;
 
   &__Social {
+    width: 80%;
+    margin: auto;
     &__Title {
       display: inline-block;
     }
@@ -135,9 +136,23 @@
   }
 
   &__Location {
+      width: 80%;
+      margin: auto;
     iframe {
       width: 100%;
       height: 500px;
+    }
+  }
+
+  &__Credits {
+    margin-top: 2em;
+    padding: 1em 0;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    text-align: center;
+
+    a {
+      color: #22D4FD;
     }
   }
 }
@@ -189,19 +204,21 @@
 }
 
 @media screen and (max-width: 485px) {
-  .Main,
-  .Footer {
+  .Main {
     width: 94%;
   }
 
   .Footer {
     &__Social {
+      width: 94%;
       gap: 0.5rem;
       span {
         display: none;
       }
     }
     &__Location {
+      width: 94%;
+      margin: auto;
       iframe {
         height: 250px;
       }

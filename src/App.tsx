@@ -140,6 +140,11 @@ function App() {
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
+
+        <div className={styles.Footer__Credits}>
+          Em desenvolvimento por:{' '}
+            <a href="https://github.com/wellingtonfernandesbarbosa">Wellington Fernandes</a>
+        </div>
       </footer>
     </div>
   );
