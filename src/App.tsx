@@ -18,7 +18,9 @@ function App() {
       <main className={styles.Main}>
         <section className={styles.Section}>
           <h2 className={styles.Section__Title}>Quem Somos</h2>
-          <p className={styles.Section__Description}>Somos uma associação dedicada a promover o bem-estar social e ambiental em nossa comunidade.</p>
+          <p className={styles.Section__Description}>
+            Já transformamos a vida de mais de 3.000 pessoas em nossa comunidade através de ações de educação, saúde e geração de renda. Acreditamos que o desenvolvimento sustentável é a chave para um futuro melhor para todos.
+          </p>
         </section>
 
         <section className={styles.Section}>
@@ -33,7 +35,10 @@ function App() {
 
         <section className={styles.Section}>
           <h2 className={styles.Section__Title}>Cursos Profissionalizantes</h2>
-          <p className={styles.Section__Description}>Oferecemos uma variedade de cursos profissionalizantes para capacitar membros da comunidade e promover o crescimento pessoal e profissional.</p>
+          <p className={styles.Section__Description}>
+            Oferecemos cursos gratuitos nas áreas de cuidados com idosos, beleza, informática, idioma e muito mais, preparando os participantes para o mercado de trabalho e promovendo sua autonomia financeira. Nossos cursos já beneficiaram mais de 500 pessoas, aumentando
+            suas chances de conseguir um emprego e melhorar sua qualidade de vida.
+          </p>
         </section>
 
         <section className={styles.Section}>
