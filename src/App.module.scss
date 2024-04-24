@@ -20,13 +20,21 @@
 }
 
 .Main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
   .Section {
+    &__Title {
+      margin: 0 0 16px;
+    }
     &__Description {
+      margin: 0;
       &__List {
         display: flex;
         flex-direction: column;
       }
-      
+
       &__Pix:active {
         color: green;
       }
@@ -34,6 +42,9 @@
   }
 
   .Donate {
+    &__Title {
+      margin: 0 0 16px;
+    }
     &__Description {
       &__List {
         display: flex;
@@ -52,7 +63,7 @@
         display: flex;
         justify-content: space-around;
         gap: 0.5rem;
-        
+
         li {
           button {
             height: 56px;
@@ -67,7 +78,7 @@
 
           button:active {
             background-color: #0a6e9b;
-            color: var( --color-white);
+            color: var(--color-white);
           }
         }
       }
@@ -146,7 +157,13 @@
 }
 
 @media screen and (max-width: 530px) {
-  
+  .Header {
+    &__Logo {
+      height: 10rem;
+      width: auto;
+    }
+  }
+
   .Donate {
     &__Description {
       &__ButtonList {
@@ -171,7 +188,7 @@
   }
 }
 
-@media screen and (max-width: 435px) {
+@media screen and (max-width: 485px) {
   .Main,
   .Footer {
     width: 94%;
