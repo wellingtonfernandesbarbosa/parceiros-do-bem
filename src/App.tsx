@@ -49,7 +49,8 @@ function App() {
               doação que mais lhe convier.
             </li>
             <li>
-              <span className={styles.Section__Description__List__CallToAction}>Divulgue</span>: Compartilhe nossa causa nas redes sociais e com seus amigos e familiares. Ajude-nos a alcançar mais pessoas e multiplicar o impacto do nosso trabalho. Clique no botão Compartilhar para divulgar nossa página.
+              <span className={styles.Section__Description__List__CallToAction}>Divulgue</span>: Compartilhe nossa causa nas redes sociais e com seus amigos e familiares. Ajude-nos a alcançar mais pessoas e multiplicar o impacto do nosso trabalho. Clique
+              no botão Compartilhar para divulgar nossa página.
             </li>
           </ul>
           <p className={styles.Section__Description}>
@@ -71,26 +72,29 @@ function App() {
 
       <footer className={styles.Footer}>
         <div className={styles.Footer__Social}>
-          <a href="https://wa.me/5531986050661" target="_blank" rel="noopener noreferrer" className={styles.Footer__SocialLink}>
-            <img src={WhatsappLogo} alt="WhatsApp" className={styles.Footer__SocialIcon} />
-            <span>WhatsApp</span>
-          </a>
-          <a href="https://www.facebook.com/people/Ong-Parceiros-do-Bem/100083482865397/" target="_blank" rel="noopener noreferrer" className={styles.Footer__SocialLink}>
-            <img src={FacebookLogo} alt="Facebook" className={styles.Footer__SocialLink__SocialIcon} />
-            <span>Facebook</span>
-          </a>
-          <a href="https://www.instagram.com/ongparceirosdobem_" target="_blank" rel="noopener noreferrer" className={styles.Footer__SocialLink}>
-            <img src={InstagramLogo} alt="Instagram" className={styles.Footer__SocialLink__SocialIcon} />
-            <span>Instagram</span>
-          </a>
-          <a href="tel:31986050661" className={styles.Footer__SocialLink}>
-            <img src={Phone} alt="Phone" className={styles.Footer__SocialLink__SocialIcon} />
-            <span>(31) 98605-0661</span>
-          </a>
-          <a href="mailto:parceirosdobemvespasiano@gmail.com" className={styles.Footer__SocialLink}>
-            <img src={Mail} alt="E-mail" className={styles.Footer__SocialLink__SocialIcon} />
-            <span>parceirosdobemvespasiano@gmail.com</span>
-          </a>
+          <h3 className={styles.Footer__Social__Title}>Redes Sociais e Contato</h3>
+          <div className={styles.Footer__Social__SocialLinks}>
+            <a href="https://wa.me/5531986050661" target="_blank" rel="noopener noreferrer" className={styles.Footer__SocialLink}>
+              <img src={WhatsappLogo} alt="WhatsApp" className={styles.Footer__SocialIcon} />
+              <span>WhatsApp</span>
+            </a>
+            <a href="https://www.facebook.com/people/Ong-Parceiros-do-Bem/100083482865397/" target="_blank" rel="noopener noreferrer" className={styles.Footer__SocialLink}>
+              <img src={FacebookLogo} alt="Facebook" className={styles.Footer__SocialLink__SocialIcon} />
+              <span>Facebook</span>
+            </a>
+            <a href="https://www.instagram.com/ongparceirosdobem_" target="_blank" rel="noopener noreferrer" className={styles.Footer__SocialLink}>
+              <img src={InstagramLogo} alt="Instagram" className={styles.Footer__SocialLink__SocialIcon} />
+              <span>Instagram</span>
+            </a>
+            <a href="tel:31986050661" className={styles.Footer__SocialLink}>
+              <img src={Phone} alt="Phone" className={styles.Footer__SocialLink__SocialIcon} />
+              <span>(31) 98605-0661</span>
+            </a>
+            <a href="mailto:parceirosdobemvespasiano@gmail.com" className={styles.Footer__SocialLink}>
+              <img src={Mail} alt="E-mail" className={styles.Footer__SocialLink__SocialIcon} />
+              <span>parceirosdobemvespasiano@gmail.com</span>
+            </a>
+          </div>
         </div>
 
         <div className={styles.Footer__Location}>

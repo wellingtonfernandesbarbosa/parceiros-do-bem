@@ -57,10 +57,17 @@
   width: 80%;
 
   &__Social {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 2rem;
+    
+    &__Title {
+      display: inline-block;
+    }
+    
+    &__SocialLinks {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 2rem;
+    }
   }
 
   &__SocialLink {
