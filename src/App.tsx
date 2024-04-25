@@ -10,8 +10,6 @@ import { useState } from "react";
 function App() {
   const [pixCopy, setPixCopy] = useState(false);
 
-  const userAgent = navigator.userAgent.toLowerCase();
-
   const shareContent = () => {
     if (navigator.share) {
       navigator
