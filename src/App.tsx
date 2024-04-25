@@ -10,8 +10,6 @@ import { useState } from "react";
 function App() {
   const [pixCopy, setPixCopy] = useState(false);
 
-  const userAgent = navigator.userAgent.toLowerCase();
-
   const shareContent = () => {
     if (navigator.share) {
       navigator
@@ -73,12 +71,10 @@ function App() {
             <li>
               <span className={styles.Donate__Description__List__CallToAction}>Doe</span>: Sua doação, seja em dinheiro, produtos ou serviços, é fundamental para que possamos continuar transformando vidas. Clique no botão Doar copiar o PIX.
             </li>
-            {!userAgent.includes("firefox") && (
-              <li>
-                <span className={styles.Donate__Description__List__CallToAction}>Divulgue</span>: Compartilhe nossa causa nas redes sociais e com seus amigos e familiares. Ajude-nos a alcançar mais pessoas e multiplicar o impacto do nosso trabalho. Clique
-                no botão Compartilhar para divulgar nossa página.
-              </li>
-            )}
+            <li>
+              <span className={styles.Donate__Description__List__CallToAction}>Divulgue</span>: Compartilhe nossa causa nas redes sociais e com seus amigos e familiares. Ajude-nos a alcançar mais pessoas e multiplicar o impacto do nosso trabalho. Clique no
+              botão Compartilhar para divulgar nossa página.
+            </li>
           </ul>
           <ul className={styles.Donate__Description__ButtonList}>
             <li>
@@ -89,11 +85,9 @@ function App() {
             <li>
               <button onClick={copyPix}>Doar</button>
             </li>
-            {!userAgent.includes("firefox") && (
-              <li>
-                <button onClick={shareContent}>Compartilhar</button>
-              </li>
-            )}
+            <li>
+              <button onClick={shareContent}>Compartilhar</button>
+            </li>
             {pixCopy && <p className={styles.Donate__Description__Pix__Copied}> Chave PIX(CNPJ) copiada com sucesso!</p>}
           </ul>
         </section>

@@ -4,6 +4,7 @@
   align-items: center;
   margin: auto;
   gap: 2em;
+  padding-top: 2em;
 }
 
 .Header {
@@ -215,7 +216,12 @@
       span {
         display: none;
       }
+      
+      &__SocialLinks {
+        gap: 8px;
+      }
     }
+
     &__Location {
       width: 94%;
       margin: auto;
