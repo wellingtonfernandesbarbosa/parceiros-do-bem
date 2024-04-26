@@ -26,7 +26,7 @@ function App() {
   const copyPix = () => {
     navigator.clipboard.writeText("07608255000180");
     setPixCopy(true);
-    setTimeout(() => setPixCopy(false), 3000);
+    setTimeout(() => setPixCopy(false), 10000);
   };
 
   return (
@@ -78,9 +78,9 @@ function App() {
           </ul>
           <ul className={styles.Donate__Description__ButtonList}>
             <li>
-              <button>
-                <a href="https://wa.me/5531986050661?text=Olá! Gostaria de me voluntariar para ajudar a ONG Parceiros do Bem.">Seja Voluntário</a>
-              </button>
+              <a href="https://wa.me/5531986050661?text=Olá! Gostaria de me voluntariar para ajudar a ONG Parceiros do Bem.">
+                <button>Seja Voluntário</button>
+              </a>
             </li>
             <li>
               <button onClick={copyPix}>Doar</button>
@@ -88,8 +88,8 @@ function App() {
             <li>
               <button onClick={shareContent}>Compartilhar</button>
             </li>
-            {pixCopy && <p className={styles.Donate__Description__Pix__Copied}> Chave PIX(CNPJ) copiada com sucesso!</p>}
           </ul>
+          {pixCopy && <p className={styles.Donate__Description__Pix__Copied}> Chave PIX(CNPJ) copiada com sucesso!</p>}
         </section>
       </main>
 

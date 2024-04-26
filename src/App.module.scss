@@ -69,6 +69,7 @@
             height: 56px;
             padding: 0 24px;
             font-size: 1em;
+            cursor: pointer;
 
             font-weight: 500;
             border-radius: 8px;
@@ -91,11 +92,11 @@
           background-color: rgba($color: green, $alpha: 0.6);
           border: 1px solid green;
           border-radius: 8px;
-          width: 90%;
+          width: fit-content;
           font-weight: 400;
           font-size: 0.8rem;
           margin: auto;
-          padding: 0.8em;
+          padding: 0.8em 2em;
           text-align: center;
         }
       }
@@ -209,6 +210,16 @@
     width: 94%;
   }
 
+  .Donate {
+    &__Description {
+      &__Pix {
+        &__Copied {
+          padding: 0.8em;
+      }
+      }
+    }
+  }
+
   .Footer {
     &__Social {
       width: 94%;
@@ -216,7 +227,7 @@
       span {
         display: none;
       }
-      
+
       &__SocialLinks {
         gap: 8px;
       }
