@@ -1,10 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
-import Header from './components/Header/index.tsx'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import Header from "./components/Header/index.tsx";
+import NavBar from "./components/NavBar/index.tsx";
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Header />
-  </React.StrictMode>,
-)
+    <NavBar />
+  </React.StrictMode>
+);
