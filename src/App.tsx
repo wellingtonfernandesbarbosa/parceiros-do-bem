@@ -1,11 +1,13 @@
+import styles from "./App.module.scss";
+
+import { useState } from "react";
+
 import Logo from "./assets/logo.png";
+import Mail from "./assets/mail.png";
+import Phone from "./assets/phone.png";
 import WhatsappLogo from "./assets/whatsapp.png";
 import FacebookLogo from "./assets/facebook.png";
 import InstagramLogo from "./assets/instagram.png";
-import Phone from "./assets/phone.png";
-import Mail from "./assets/mail.png";
-import styles from "./App.module.scss";
-import { useState } from "react";
 
 function App() {
   const [pixCopy, setPixCopy] = useState(false);
@@ -15,7 +17,7 @@ function App() {
       navigator
         .share({
           title: "Parceiros do Bem",
-          text: "Parceiros do Bem: Transformando Vidas Através do Desenvolvimento Humano",
+          text: "Parceiros do Bem: Juntos, transformando vidas através da educação.",
           url: "https://parceiros-do-bem.vercel.app/",
         })
         .then(() => console.log("Successful share"))
@@ -26,7 +28,7 @@ function App() {
   const copyPix = () => {
     navigator.clipboard.writeText("07608255000180");
     setPixCopy(true);
-    setTimeout(() => setPixCopy(false), 10000);
+    setTimeout(() => setPixCopy(false), 3000);
   };
 
   return (
