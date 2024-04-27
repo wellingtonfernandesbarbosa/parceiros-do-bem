@@ -1,7 +1,7 @@
 # Parceiros do Bem
 
 <p align="center">
-  <img src="/public/logo.png" alt="logo da ong" width="400px">
+  <img src="https://parceirosdobem.vercel.app/assets/logo-DZyAMAAs.png" alt="logo da ong" width="400px">
 </p>
 
 ## Descrição
