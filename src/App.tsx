@@ -18,7 +18,7 @@ function App() {
         .share({
           title: "Parceiros do Bem",
           text: "Parceiros do Bem: Juntos, transformando vidas através da educação.",
-          url: "https://parceiros-do-bem.vercel.app/",
+          url: "https://parceirosdobem.vercel.app/",
         })
         .then(() => console.log("Successful share"))
         .catch((error) => console.log("Error sharing", error));
