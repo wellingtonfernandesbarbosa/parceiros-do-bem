@@ -1,0 +1,47 @@
+.Footer {
+  background-color: var(--dark-grey);
+
+  &__Container {
+    display: flex;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+    padding: 90px 0 96px;
+    color: var(--white);
+    font-size: 13px;
+
+    &__Info {
+      display: flex;
+      flex-direction: column;
+      width: 33%;
+      gap: 20px;
+
+      &__Logo {
+        width: 171px;
+      }
+
+      &__List {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        &__Item {
+          a {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            span:hover {
+              color: var(--primary-color);
+            }
+
+            img {
+              width: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
