@@ -4,6 +4,7 @@ import Logo from "../../assets/logo.png";
 import locationLogo from "../../assets/location-white.png";
 import phoneLogo from "../../assets/phone-white.png";
 import mailIcon from "../../assets/mail-white.png";
+import NavBar from "../NavBar";
 
 const Footer = () => {
   return (
@@ -34,6 +35,8 @@ const Footer = () => {
           </ul>
         </div>
         <div className={styles.Footer__Container__Navigation}>
+          <h2>Páginas</h2>
+          <NavBar />
         </div>
         <div className={styles.Footer__Container__Social}></div>
       </div>
