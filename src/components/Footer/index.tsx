@@ -8,6 +8,7 @@ import WhatsappLogo from "../../assets/whatsapp-white.png";
 import FacebookWhiteLogo from "../../assets/facebook-white.svg";
 import InstagramLogo from "../../assets/instagram-white.png";
 import YoutubeWhiteIcon from "../../assets/youtube-white.png";
+
 import NavBar from "../NavBar";
 
 const Footer = () => {

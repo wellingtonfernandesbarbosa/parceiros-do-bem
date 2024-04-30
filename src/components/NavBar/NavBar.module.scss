@@ -16,5 +16,9 @@
       color: var(--white);
       font-weight: 400;
     }
+
+    &__Item:hover {
+      color: var(--primary-color);
+    }
   }
 }
