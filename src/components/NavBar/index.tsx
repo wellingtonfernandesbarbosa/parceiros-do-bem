@@ -1,8 +1,9 @@
+import { useRoutes } from "../../hooks";
 import styles from "./NavBar.module.scss";
 
-const pages: string[] = ["Home", "Sobre", "Cursos", "Eventos", "Notícias", "Contato"];
-
 const NavBar = () => {
+  const pages: string[] = useRoutes()[0];
+
   return (
     <nav className={styles.NavBar}>
       <ul className={styles.NavBar__List}>
