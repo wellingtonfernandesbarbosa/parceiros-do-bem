@@ -11,6 +11,7 @@ import YoutubeWhiteIcon from "../../assets/youtube-white.png";
 
 import NavBar from "../NavBar";
 import { useParceiroDoBem } from "../../hooks";
+import { LinkTelFormatter } from "../../util";
 
 const Footer = () => {
   const parceirosDoBem = useParceiroDoBem()[0];
@@ -29,7 +30,7 @@ const Footer = () => {
               </a>
             </li>
             <li className={styles.Footer__Container__Info__List__Item}>
-              <a href={`tel:${parceirosDoBem.phone.replace("(", "").replace(")", "").replace("-", "").replace(" ", "")}`} title={`Ligue para ${parceirosDoBem.phone}`}>
+              <a href={LinkTelFormatter(parceirosDoBem.phone)} title={`Ligue para ${parceirosDoBem.phone}`}>
                 <img src={phoneLogo} alt="" />
                 <span>{parceirosDoBem.phone}</span>
               </a>
