@@ -10,31 +10,34 @@ import InstagramLogo from "../../assets/instagram-white.png";
 import YoutubeWhiteIcon from "../../assets/youtube-white.png";
 
 import NavBar from "../NavBar";
+import { useParceiroDoBem } from "../../hooks";
 
 const Footer = () => {
+  const parceirosDoBem = useParceiroDoBem()[0];
+
   return (
     <footer className={styles.Footer}>
       <div className={styles.Footer__Container}>
         <div className={styles.Footer__Container__Info}>
-          <img src={Logo} alt="Logo" title="Parceiros do Bem" className={styles.Footer__Container__Info__Logo} />
+          <img src={Logo} alt="Logo" title={parceirosDoBem.name} className={styles.Footer__Container__Info__Logo} />
           <p className={styles.Footer__Container__Info__Text}>Transformando Vidas Através do Desenvolvimento Humano</p>
           <ul className={styles.Footer__Container__Info__List}>
             <li className={styles.Footer__Container__Info__List__Item}>
-              <a href="https://www.google.com/maps/place/ONG+Parceiros+do+Bem/@-19.7488302,-43.9529003,15z/data=!4m6!3m5!1s0xa68905c244f699:0x5910ddc10081235a!8m2!3d-19.7488302!4d-43.9529003!16s%2Fg%2F11ss57yqx0?entry=ttu" title="Endereço" target="_blank">
+              <a href={parceirosDoBem.map} title="Endereço" target="_blank">
                 <img src={locationLogo} alt="Endereço" />
-                <span>Rua Santos Dumont 401, Jardim da Gloria, Vespasiano</span>
+                <span>{parceirosDoBem.address}</span>
               </a>
             </li>
             <li className={styles.Footer__Container__Info__List__Item}>
-              <a href="tel:31986050661" title="Ligue para (31) 98605-0661">
+              <a href={`tel:${parceirosDoBem.phone.replace("(", "").replace(")", "").replace("-", "").replace(" ", "")}`} title={`Ligue para ${parceirosDoBem.phone}`}>
                 <img src={phoneLogo} alt="" />
-                <span>(31) 98605-0661</span>
+                <span>{parceirosDoBem.phone}</span>
               </a>
             </li>
             <li className={styles.Footer__Container__Info__List__Item}>
-              <a href="mailto:parceirosdobemvespasiano@gmail.com" title="Email" target="_blank">
+              <a href={`mailto:${parceirosDoBem.email}`} title="Email" target="_blank">
                 <img src={mailIcon} alt="Email" />
-                <span>parceirosdobemvespasiano@gmail.com</span>
+                <span>{parceirosDoBem.email}</span>
               </a>
             </li>
           </ul>
@@ -47,25 +50,25 @@ const Footer = () => {
           <h2>Redes Sociais</h2>
           <ul className={styles.Footer__Container__Social__Icons}>
             <li className={styles.Footer__Container__Social__Icons__Item}>
-              <a href="https://wa.me/5531986050661" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+              <a href={parceirosDoBem.whatsApp} target="_blank" rel="noopener noreferrer" title="WhatsApp">
                 <img src={WhatsappLogo} alt="WhatsApp" className={styles.Footer__SocialIcon} />
                 <span>WhatsApp</span>
               </a>
             </li>
             <li className={styles.Footer__Container__Social__Icons__Item}>
-              <a href="https://www.facebook.com/people/Ong-Parceiros-do-Bem/100083482865397/" target="_blank" rel="noopener noreferrer" title="Facebook">
+              <a href={parceirosDoBem.facebook} target="_blank" rel="noopener noreferrer" title="Facebook">
                 <img src={FacebookWhiteLogo} alt="Facebook" className={styles.Footer__SocialLink__SocialIcon} />
                 <span>Facebook</span>
               </a>
             </li>
             <li className={styles.Footer__Container__Social__Icons__Item}>
-              <a href="https://www.instagram.com/ongparceirosdobem_" target="_blank" rel="noopener noreferrer" title="Instagram">
+              <a href={parceirosDoBem.instagram} target="_blank" rel="noopener noreferrer" title="Instagram">
                 <img src={InstagramLogo} alt="Instagram" className={styles.Footer__SocialLink__SocialIcon} />
                 <span>Instagram</span>
               </a>
             </li>
             <li className={styles.Footer__Container__Social__Icons__Item}>
-              <a href="https://www.youtube.com/channel/UCxNhCpGKVcch10CrhgvOyWg" target="_blank" rel="noopener noreferrer" title="Youtube" >
+              <a href={parceirosDoBem.youtube} target="_blank" rel="noopener noreferrer" title="Youtube">
                 <img src={YoutubeWhiteIcon} alt="Youtube" className={styles.Footer__SocialLink__SocialIcon} />
                 <span>Youtube</span>
               </a>
