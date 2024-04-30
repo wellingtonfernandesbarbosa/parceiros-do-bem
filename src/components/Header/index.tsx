@@ -17,16 +17,16 @@ const Header = () => {
           </a>
           <div className={styles.Header__Info__Email__Text}>
             <Title3>Email</Title3>
-            <a href="mailto:parceirosdobemvespasiano@gmail.com" title="Email">parceirosdobemvespasiano@gmail.coma</a>
+            <a href="mailto:parceirosdobemvespasiano@gmail.com" title="Email">parceirosdobemvespasiano@gmail.com</a>
           </div>
         </div>
         <div className={styles.Header__Info__Phone}>
-          <a href="tel:+551199999999" title="Ligue para (11) 99999-9999">
+          <a href="tel:31986050661" title="Ligue para (31) 98605-0661">
             <img src={Phone} alt="Telefone" className={styles.Header__Info__Icon} />
           </a>
           <div className={styles.Header__Info__Phone__Text}>
             <Title3>Ligue Agora</Title3>
-            <a href="tel:+551199999999" title="Ligue para (11) 99999-9999">(11) 99999-9999</a>
+            <a href="tel:31986050661" title="Ligue para (31) 98605-0661">(31) 98605-0661</a>
           </div>
         </div>
         <a href="https://wa.me/5531986050661?text=Olá! Gostaria de fazer uma doação para ajudar a ONG Parceiros do Bem." target="_blank" title="Doar" className={styles.Header__Info__Donate}>
