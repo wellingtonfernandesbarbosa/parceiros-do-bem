@@ -5,18 +5,21 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import DefaultPage from "./pages/DefaultPage";
 import Home from "./pages/Home";
+import { RecoilRoot } from "recoil";
 
 export default function AppRoutes() {
   return (
     <BrowserRouter>
-      <Header />
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<DefaultPage />}>
-          <Route index element={<Home />} />
-        </Route>
-      </Routes>
-      <Footer />
+      <RecoilRoot>
+        <Header />
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<DefaultPage />}>
+            <Route index element={<Home />} />
+          </Route>
+        </Routes>
+        <Footer />
+      </RecoilRoot>
     </BrowserRouter>
   );
 }
