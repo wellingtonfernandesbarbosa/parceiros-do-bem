@@ -12,7 +12,7 @@
     margin: 0 auto;
     width: 100%;
 
-    height: 37em;
+    height: 30vw;
 
     &__Title {
       font-family: var(--font-releway);
@@ -22,6 +22,39 @@
 
       &__Span {
         font-weight: 500;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .Container {
+    &__Banner {
+      height: 45vw;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Container {
+    &__Banner {
+      &__Title {
+        padding-left: 16px;
+        font-size: 28px;
+        width: 49%;
+      }
+
+      height: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .Container {
+    &__Banner {
+      &__Title {
+        width: 58%;
+        font-size: 22px;
       }
     }
   }
