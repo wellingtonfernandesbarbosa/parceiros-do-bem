@@ -5,11 +5,16 @@ import Email from "../../assets/mail_blue.svg";
 import Phone from "../../assets/phone_blue.svg";
 
 import { Title3 } from "../Typografy";
-import { useParceiroDoBem } from "../../hooks";
 import { LinkTelFormatter } from "../../util";
+import { useActiveMenuState, useParceiroDoBem } from "../../hooks";
 
 const Header = () => {
   const parceirosDoBem = useParceiroDoBem()[0];
+  const [isActiveMenu, setActiveMenu] = useActiveMenuState();
+
+  const menu = () => {
+    setActiveMenu(!isActiveMenu)
+  }
 
   return (
     <header className={styles.Header}>
@@ -40,6 +45,11 @@ const Header = () => {
         <a href={`${parceirosDoBem.whatsApp}?text=Olá! Gostaria de fazer uma doação para ajudar a ONG Parceiros do Bem.`} target="_blank" title="Doar" className={styles.Header__Info__Donate}>
           <button className={styles.Header__Info__Donate__Button}>Doar</button>
         </a>
+      </div>
+      <div className={styles.Header__Menu} onClick={menu}>
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
     </header>
   );
