@@ -88,7 +88,7 @@
         cursor: pointer;
 
         &__Copied {
-          color: var(--color-black);
+          color: var(--black);
           background-color: rgba($color: green, $alpha: 0.6);
           border: 1px solid green;
           border-radius: 8px;
@@ -138,8 +138,8 @@
   }
 
   &__Location {
-      width: 80%;
-      margin: auto;
+    width: 80%;
+    margin: auto;
     iframe {
       width: 100%;
       height: 500px;
@@ -149,12 +149,12 @@
   &__Credits {
     margin-top: 2em;
     padding: 1em 0;
-    background-color: var(--color-black);
+    background-color: var(--black);
     color: var(--color-white);
     text-align: center;
 
     a {
-      color: #22D4FD;
+      color: #22d4fd;
     }
   }
 }
@@ -215,7 +215,7 @@
       &__Pix {
         &__Copied {
           padding: 0.8em;
-      }
+        }
       }
     }
   }
