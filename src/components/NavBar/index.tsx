@@ -2,7 +2,12 @@ import styles from "./NavBar.module.scss";
 
 import { useRoutes } from "../../hooks";
 
-const NavBar = ({ handleMenuClose, navBar }: { handleMenuClose: () => void; isActiveMenu: boolean; navBar: React.MutableRefObject<null> }) => {
+interface NavBarProps {
+  handleMenuClose?: () => void;
+  navBar?: React.MutableRefObject<null>;
+}
+
+const NavBar = ({ handleMenuClose, navBar }: NavBarProps) => {
   const pages: string[] = useRoutes()[0];
 
   return (
