@@ -21,8 +21,3 @@ export const recoilParceirosDoBem = atom({
     repository: "https://github.com/wellingtonfernandesbarbosa/parceiros-do-bem",
   },
 })
-
-export const recoilActiveMenu = atom({
-  key: "recoilActiveMenu",
-  default: false,
-})

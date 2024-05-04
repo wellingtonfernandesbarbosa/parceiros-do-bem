@@ -23,17 +23,16 @@
     a {
       display: flex;
     }
-    
+
     &__Icon {
       width: 60px;
       height: auto;
     }
-    
+
     &__Email {
       display: flex;
       gap: 15px;
 
-      
       &__Text {
         display: flex;
         justify-content: center;
@@ -93,12 +92,16 @@
       background-color: var(--primary-color);
     }
   }
+
+  nav {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 933px) {
   .Header {
     padding: 0 6px;
-    
+
     &__Logo {
       width: 150px;
     }
@@ -134,9 +137,24 @@
     &__Menu {
       display: flex;
     }
-  
+
     &__Info {
       display: none;
+    }
+
+    nav {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 119px;
+      padding: 24px;
+
+      ul {
+        padding: 0;
+        flex-direction: column;
+        gap: 20px;
+        align-items: start;
+      }
     }
   }
 }

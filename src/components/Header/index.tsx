@@ -1,20 +1,45 @@
 import styles from "./Header.module.scss";
 
+import { useCallback, useEffect, useRef, useState } from "react";
+
+import NavBar from "../NavBar";
 import Logo from "../../assets/logo.png";
 import Email from "../../assets/mail_blue.svg";
 import Phone from "../../assets/phone_blue.svg";
-
 import { Title3 } from "../Typografy";
 import { LinkTelFormatter } from "../../util";
-import { useActiveMenuState, useParceiroDoBem } from "../../hooks";
+import { useParceiroDoBem } from "../../hooks";
 
 const Header = () => {
   const parceirosDoBem = useParceiroDoBem()[0];
-  const [isActiveMenu, setActiveMenu] = useActiveMenuState();
+  const [isActiveMenu, setIsActiveMenu] = useState(false);
 
-  const menu = () => {
-    setActiveMenu(!isActiveMenu)
-  }
+  const navBar = useRef(null);
+  const menu = useRef(null);
+
+  const handleMenuClick = () => {
+    setIsActiveMenu((previous) => !previous);
+  };
+
+  const handleMenuClose = useCallback(() => {
+    setIsActiveMenu(false);
+  }, []);
+
+  const handleClickOutside = useCallback(
+    (event: MouseEvent) => {
+      if (navBar.current && menu.current && !(navBar.current as HTMLElement).contains(event.target as Node) && !(menu.current as HTMLElement).contains(event.target as Node)) {
+        isActiveMenu && handleMenuClose();
+      }
+    },
+    [handleMenuClose, navBar, isActiveMenu]
+  );
+
+  useEffect(() => {
+    document.addEventListener("click", handleClickOutside);
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, [handleClickOutside, handleMenuClose, navBar]);
 
   return (
     <header className={styles.Header}>
@@ -46,11 +71,12 @@ const Header = () => {
           <button className={styles.Header__Info__Donate__Button}>Doar</button>
         </a>
       </div>
-      <div className={styles.Header__Menu} onClick={menu}>
+      <div className={styles.Header__Menu} onClick={handleMenuClick} id="menuIcon" ref={menu}>
         <div></div>
         <div></div>
         <div></div>
       </div>
+      {isActiveMenu && <NavBar handleMenuClose={handleMenuClose} isActiveMenu={isActiveMenu} navBar={navBar} />}
     </header>
   );
 };
