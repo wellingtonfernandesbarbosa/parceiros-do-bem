@@ -76,7 +76,7 @@ const Header = () => {
         <div></div>
         <div></div>
       </div>
-      {isActiveMenu && <NavBar handleMenuClose={handleMenuClose} isActiveMenu={isActiveMenu} navBar={navBar} />}
+      {isActiveMenu && <NavBar handleMenuClose={handleMenuClose} navBar={navBar} />}
     </header>
   );
 };
