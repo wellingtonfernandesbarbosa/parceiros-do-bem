@@ -2,7 +2,29 @@ import { atom } from "recoil";
 
 export const recoilRoutes = atom({
   key: "routes",
-  default: ["Home", "Sobre", "Cursos", "Eventos", "Notícias", "Contato"],
+  default: [
+    {
+      name: "Home", link: ""
+    },
+    {
+      name: "Sobre", link: "sobre"
+    },
+    {
+      name: "Cursos", link: "cursos"
+    },
+    {
+      name: "Eventos", link: "eventos"
+    },
+    {
+      name: "Equipe", link: "equipe"
+    },
+    {
+      name: "Notícias", link: "noticias"
+    },
+    {
+      name: "Contato", link: "contato"
+    }
+  ],
 })
 
 export const recoilParceirosDoBem = atom({
