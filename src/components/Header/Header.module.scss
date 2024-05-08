@@ -1,0 +1,160 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: var(--max-width);
+  margin: 24px auto;
+  width: 100%;
+
+  &__Logo {
+    width: 235px;
+  }
+
+  &__Info {
+    display: flex;
+    gap: 35px;
+
+    h3 {
+      font-size: 13px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    a {
+      display: flex;
+    }
+
+    &__Icon {
+      width: 60px;
+      height: auto;
+    }
+
+    &__Email {
+      display: flex;
+      gap: 15px;
+
+      &__Text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3.78px;
+
+        a {
+          color: var(--light-grey);
+          font-size: 13px;
+        }
+      }
+    }
+
+    &__Phone {
+      display: flex;
+      gap: 15px;
+
+      &__Text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 4.7px;
+
+        a {
+          font-size: 18px;
+        }
+      }
+    }
+
+    &__Donate {
+      &__Button {
+        cursor: pointer;
+        background-color: var(--primary-color);
+        padding: 14px 37px;
+        border: none;
+        border-radius: 30px;
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  &__Menu {
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    gap: 10px;
+    cursor: pointer;
+
+    div {
+      width: 40px;
+      height: 4px;
+      background-color: var(--primary-color);
+    }
+  }
+
+  nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 933px) {
+  .Header {
+    padding: 0 6px;
+
+    &__Logo {
+      width: 150px;
+    }
+
+    &__Info {
+      gap: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .Header {
+    &__Info {
+      &__Email {
+        &__Text {
+          display: none;
+        }
+      }
+
+      &__Phone {
+        &__Text {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Header {
+    margin: 0;
+    padding: 8px 16px;
+    &__Menu {
+      display: flex;
+    }
+
+    &__Info {
+      display: none;
+    }
+
+    nav {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 119px;
+      padding: 24px;
+
+      ul {
+        padding: 0;
+        flex-direction: column;
+        gap: 20px;
+        align-items: start;
+      }
+    }
+  }
+}

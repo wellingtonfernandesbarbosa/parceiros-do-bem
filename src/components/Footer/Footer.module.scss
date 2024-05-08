@@ -1,0 +1,167 @@
+.Footer {
+  background-color: var(--dark-grey);
+
+  a:nth-child(1):hover {
+    color: var(--primary-color);
+    img {
+      filter: invert(0.5) sepia(1) saturate(7) hue-rotate(180deg);
+    }
+  }
+
+  padding: 0 16px;
+  &__Container {
+    display: flex;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+    padding: 90px 0 96px;
+    color: var(--white);
+    font-size: 13px;
+    gap: 16px;
+
+    &__Info {
+      display: flex;
+      flex-direction: column;
+      width: 33%;
+      gap: 20px;
+
+      &__Logo {
+        width: 200px;
+      }
+
+      &__List {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        &__Item {
+          a {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            img {
+              width: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    &__Navigation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 33%;
+      gap: 24px;
+
+      nav {
+        border: none;
+        width: fit-content;
+
+        ul {
+          gap: 18px;
+          align-items: start;
+          width: fit-content;
+          padding: 0;
+          flex-direction: column;
+
+          li {
+            text-transform: none;
+            font-weight: 300;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+
+    &__Social {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 24px;
+      width: 33%;
+
+      &__Icons {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        &__Item {
+          a {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            img {
+              width: 30px;
+            }
+
+            span {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Footer {
+    &__Container {
+      padding: 32px 0;
+      justify-content: space-around;
+      div {
+        width: auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 622px) {
+  .Footer {
+    &__Container {
+      &__Navigation {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .Footer {
+    &__Container {
+      flex-direction: column;
+      gap: 28px;
+
+      &__Info {
+        text-align: center;
+        img, p {
+          display: none;
+        }
+
+        &__List {
+          align-items: center;
+          gap: 4px;
+        }
+      }
+
+      &__Social {
+        gap: 16px;
+        &__Icons {
+          flex-direction: row;
+
+          &__Item {
+            a {
+              span {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
