@@ -17,7 +17,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 
 export default function AppRoutes() {
-  const [screenWidth, setScreenWidth] = useState<number>(768);
+  const [screenWidth, setScreenWidth] = useState<number>(window.innerWidth);
 
   useEffect(() => {
     const handleResize = () => {
@@ -29,7 +29,7 @@ export default function AppRoutes() {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  });
 
   return (
     <BrowserRouter>
