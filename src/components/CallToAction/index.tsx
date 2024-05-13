@@ -2,14 +2,15 @@ import styles from "./CallToAction.module.scss";
 import EventImage from "../../assets/evento.webp";
 import CourseImage from "../../assets/curso.webp";
 import TeamImage from "../../assets/equipe.webp";
+import { Link } from "react-router-dom";
 
 interface CallToAction {
   logo?: string;
   title: string;
-  text?: string;
-  actionLink?: string;
-  buttonText?: string;
-  backgroundImage?: string;
+  text: string;
+  actionLink: string;
+  buttonText: string;
+  backgroundImage: string;
 }
 
 const callToAction: CallToAction[] = [
@@ -50,9 +51,9 @@ const CallToAction = () => {
           <div className={styles.Container__Item__Content}>
             <h2 className={styles.Container__Item__Content__Title}>{item.title}</h2>
             <p className={styles.Container__Item__Content__Text}>{item.text}</p>
-            <a href={item.actionLink} className={styles.Container__Item__Content__Link}>
+            <Link to={item.actionLink} className={styles.Container__Item__Content__Link}>
               {item.buttonText}
-            </a>
+            </Link>
           </div>
         </div>
       ))}
