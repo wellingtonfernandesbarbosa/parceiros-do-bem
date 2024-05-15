@@ -1,6 +1,7 @@
 .NavBar {
   background-color: var(--dark-grey);
   border-bottom: 4px solid var(--primary-color);
+  z-index: 1;
 
   &__List {
     display: flex;
