@@ -1,0 +1,89 @@
+.About {
+  display: flex;
+  flex-direction: column;
+  max-width: var(--max-width);
+  margin: 64px auto;
+  padding: 0 16px;
+  gap: 32px;
+
+  &__Section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    h2 {
+      font-family: var(--font-releway);
+      color: var(--primary-color);
+      text-transform: uppercase;
+    }
+
+    &__ValuesList {
+      list-style-type: none;
+      padding-left: 20px;
+
+      li {
+        position: relative;
+
+        &::before {
+          content: "";
+          position: absolute;
+          left: -20px;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 8px;
+          height: 8px;
+          background-color: var(--primary-color);
+          border-radius: 50%;
+        }
+      }
+    }
+    &__ButtonsContainer {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 18px;
+
+      button {
+        font-weight: 600;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 9px 23px;
+        border: 2px solid var(--primary-color);
+        border-radius: 30px;
+        background-color: var(--white);
+        color: var(--primary-color);
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      button:hover {
+        background-color: var(--primary-color);
+        color: var(--white);
+      }
+    }
+
+    &__PixCopied {
+      padding: 8px 16px;
+      font-size: 13px;
+      color: var(--primary-color);
+      border: 1px solid var(--primary-color);
+      border-radius: 30px;
+      width: fit-content;
+      margin: auto;
+    }
+
+    &__Mail {
+      color: var(--primary-color);
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .About {
+    margin: 32px auto;
+
+    &__Section {
+      gap: 12px;
+    }
+  }
+}
