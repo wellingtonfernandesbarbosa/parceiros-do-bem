@@ -81,13 +81,13 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    width: 40px;
-    height: 40px;
+    width: 32px;
     gap: 10px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 
     div {
-      width: 40px;
+      width: 32px;
       height: 4px;
       background-color: var(--primary-color);
     }
@@ -98,7 +98,7 @@
   }
 }
 
-@media screen and (max-width: 933px) {
+@media screen and (max-width: 973px) {
   .Header {
     padding: 0 6px;
 
@@ -112,7 +112,7 @@
   }
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 860px) {
   .Header {
     &__Info {
       &__Email {
@@ -134,6 +134,12 @@
   .Header {
     margin: 0;
     padding: 8px 16px;
+
+    &__Logo {
+      height: 72px;
+      width: auto;
+    }
+
     &__Menu {
       display: flex;
     }
@@ -146,7 +152,7 @@
       display: block;
       position: absolute;
       right: 0;
-      top: 119px;
+      top: 88px;
       padding: 24px;
 
       ul {
