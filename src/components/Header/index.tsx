@@ -9,6 +9,8 @@ import Phone from "../../assets/phone_blue.svg";
 import { Title3 } from "../Typografy";
 import { LinkTelFormatter } from "../../util";
 import { useParceiroDoBem } from "../../hooks";
+import hapticFeedback from "../../util/haptic";
+
 
 const Header = () => {
   const parceirosDoBem = useParceiroDoBem()[0];
@@ -18,6 +20,7 @@ const Header = () => {
   const menu = useRef(null);
 
   const handleMenuClick = () => {
+    hapticFeedback();
     setIsActiveMenu((previous) => !previous);
   };
 

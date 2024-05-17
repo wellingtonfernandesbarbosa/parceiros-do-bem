@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import ClipboardJS from "clipboard";
 
 import { useParceiroDoBem } from "../../hooks";
+import hapticFeedback from "../../util/haptic";
 
 const About = () => {
   const [pixCopy, setPixCopy] = useState(false);
@@ -13,6 +14,7 @@ const About = () => {
     const clipboard = new ClipboardJS(".copy-button");
 
     clipboard.on("success", () => {
+      hapticFeedback();
       setPixCopy(true);
       setTimeout(() => setPixCopy(false), 3000);
     });
