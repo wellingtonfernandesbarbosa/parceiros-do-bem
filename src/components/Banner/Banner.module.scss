@@ -27,6 +27,16 @@
   }
 }
 
+@media screen and (max-width: 1312px) {
+  .Container {
+    &__Banner {
+      &__Title {
+        padding-left: 16px;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .Container {
     &__Banner {
@@ -39,7 +49,6 @@
   .Container {
     &__Banner {
       &__Title {
-        padding-left: 16px;
         font-size: 28px;
         width: 49%;
       }
