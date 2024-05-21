@@ -41,7 +41,7 @@
 
         a {
           color: var(--light-grey);
-          font-size: 13px;
+          font-size: 14px;
         }
       }
     }
@@ -98,7 +98,7 @@
   }
 }
 
-@media screen and (max-width: 973px) {
+@media screen and (max-width: 995px) {
   .Header {
     padding: 0 6px;
 
@@ -112,7 +112,7 @@
   }
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 895px) {
   .Header {
     &__Info {
       &__Email {
