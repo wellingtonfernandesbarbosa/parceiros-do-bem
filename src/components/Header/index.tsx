@@ -3,14 +3,13 @@ import styles from "./Header.module.scss";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 import NavBar from "../NavBar";
-import Logo from "../../assets/logo.png";
-import Email from "../../assets/mail_blue.svg";
-import Phone from "../../assets/phone_blue.svg";
+import Logo from "@/assets/logo.png";
+import Email from "@/assets/mail_blue.svg";
+import Phone from "@/assets/phone_blue.svg";
 import { Title3 } from "../Typografy";
-import { LinkTelFormatter } from "../../util";
-import { useParceiroDoBem } from "../../hooks";
-import hapticFeedback from "../../util/haptic";
-
+import { LinkTelFormatter } from "@/util";
+import { useParceiroDoBem } from "@/hooks";
+import hapticFeedback from "@/util/haptic";
 
 const Header = () => {
   const parceirosDoBem = useParceiroDoBem()[0];

@@ -2,9 +2,9 @@ import styles from "./Contact.module.scss";
 
 import { useState } from "react";
 
-import Banner from "../../components/Banner";
-import { useParceiroDoBem } from "../../hooks";
-import { Title3 } from "../../components/Typografy";
+import Banner from "@/components/Banner";
+import { useParceiroDoBem } from "@/hooks";
+import { Title3 } from "@/components/Typografy";
 
 const Contact = () => {
   const ParceirosDoBem = useParceiroDoBem()[0];

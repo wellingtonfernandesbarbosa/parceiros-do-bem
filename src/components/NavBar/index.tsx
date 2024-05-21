@@ -1,6 +1,6 @@
 import styles from "./NavBar.module.scss";
 
-import { useRoutes } from "../../hooks";
+import { useRoutes } from "@/hooks";
 import { Link } from "react-router-dom";
 
 interface NavBarProps {

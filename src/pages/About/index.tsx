@@ -3,8 +3,8 @@ import styles from "./About.module.scss";
 import { useEffect, useState } from "react";
 import ClipboardJS from "clipboard";
 
-import { useParceiroDoBem } from "../../hooks";
-import hapticFeedback from "../../util/haptic";
+import { useParceiroDoBem } from "@/hooks";
+import hapticFeedback from "@/util/haptic";
 
 const About = () => {
   const [pixCopy, setPixCopy] = useState(false);

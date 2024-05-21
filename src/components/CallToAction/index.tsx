@@ -1,7 +1,7 @@
 import styles from "./CallToAction.module.scss";
-import EventImage from "../../assets/evento.webp";
-import CourseImage from "../../assets/curso.webp";
-import TeamImage from "../../assets/equipe.webp";
+import EventImage from "@/assets/evento.webp";
+import CourseImage from "@/assets/curso.webp";
+import TeamImage from "@/assets/equipe.webp";
 import { Link } from "react-router-dom";
 
 interface CallToAction {
