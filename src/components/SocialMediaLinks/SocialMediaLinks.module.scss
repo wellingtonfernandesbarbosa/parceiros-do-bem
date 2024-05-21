@@ -1,0 +1,41 @@
+.Social {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  &__Title {
+    width: max-content;
+  }
+
+  &__List {
+    display: flex;
+    // flex-direction: column;
+    gap: 20px;
+
+    &__Item {
+      a {
+        display: flex;
+        gap: 10px;
+
+        img {
+          width: 30px;
+        }
+
+        span {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .Social {
+    gap: 16px;
+
+    &__List {
+      flex-direction: row;
+      
+    }
+  }
+}

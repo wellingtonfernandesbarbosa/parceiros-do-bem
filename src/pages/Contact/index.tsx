@@ -5,6 +5,7 @@ import { useState } from "react";
 import Banner from "@/components/Banner";
 import { useParceiroDoBem } from "@/hooks";
 import { Title3 } from "@/components/Typografy";
+import SocialMediaLinks from "@/components/SocialMediaLinks";
 
 const Contact = () => {
   const ParceirosDoBem = useParceiroDoBem()[0];
@@ -46,6 +47,10 @@ const Contact = () => {
             <a href={ParceirosDoBem.map}>{ParceirosDoBem.address}</a>
             <a href={`tel:${ParceirosDoBem.phone}`}>{ParceirosDoBem.phone}</a>
             <a href={`mailto:${ParceirosDoBem.email}`}>{ParceirosDoBem.email}</a>
+          </div>
+
+          <div className={styles.Contact__Container__Info__SocialMediaLinks}>
+            <SocialMediaLinks />
           </div>
         </div>
 

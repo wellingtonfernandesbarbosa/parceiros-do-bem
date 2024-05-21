@@ -12,12 +12,19 @@
       display: flex;
       flex-direction: column;
       gap: 16px;
-      width: 40%;
+      width: 46%;
 
       &__Links {
         display: flex;
         flex-direction: column;
         gap: 8px;
+      }
+
+      &__SocialMediaLinks {
+        ul {
+          
+          flex-wrap: wrap;
+        }
       }
     }
 
@@ -114,6 +121,18 @@
     &__Container {
       &__Info, &__Form {
         width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .Contact {
+    &__Container {
+      &__Info {
+        &__Links {
+          font-size: 14px;
+        }
       }
     }
   }
