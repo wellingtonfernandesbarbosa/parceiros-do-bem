@@ -1,7 +1,7 @@
 import Banner from "@/components/Banner";
 import BecomeAPartner from "@/components/BecomeAPartner";
 import CallToAction from "@/components/CallToAction";
-import HomeBanner from "@/assets/banner.jpg";
+import HomeBanner from "@/assets/homeBanner.webp";
 
 const Home = () => {
   return (

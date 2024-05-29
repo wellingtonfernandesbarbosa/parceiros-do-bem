@@ -14,7 +14,6 @@ const SocialMediaLinks = () => {
   const parceirosDoBem = useParceiroDoBem()[0];
 
   const page = useLocation().pathname.replace("/", "");
-  console.log(page)
 
   let WhatsAppIcon = null;
   let FacebookIcon = null;

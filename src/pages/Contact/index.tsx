@@ -6,6 +6,7 @@ import Banner from "@/components/Banner";
 import { useParceiroDoBem } from "@/hooks";
 import { Title3 } from "@/components/Typografy";
 import SocialMediaLinks from "@/components/SocialMediaLinks";
+import ContactBanner from "@/assets/contactBanner.webp";
 
 const Contact = () => {
   const ParceirosDoBem = useParceiroDoBem()[0];
@@ -32,7 +33,7 @@ const Contact = () => {
 
   return (
     <main className={styles.Contact}>
-      <Banner>
+      <Banner background={ContactBanner} backgroundStylish={true}>
         <span>Estamos aqui para ajudar</span>
         <br />
         Entre em contato para saber mais sobre nossos projetos e como você pode se envolver
