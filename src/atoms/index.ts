@@ -16,6 +16,9 @@ export const recoilRoutes = atom({
       name: "Eventos", link: "eventos"
     },
     {
+      name: "Galeria", link: "galeria"
+    },
+    {
       name: "Equipe", link: "equipe"
     },
     {
