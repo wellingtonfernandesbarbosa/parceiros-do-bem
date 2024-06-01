@@ -1,5 +1,5 @@
 const hapticFeedback = () => {
-  return navigator.vibrate && navigator.vibrate(50);
+  return navigator.vibrate && navigator.vibrate(60);
 };
 
 export default hapticFeedback;
