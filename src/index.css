@@ -9,13 +9,14 @@
   line-height: 1.5;
   margin: 0;
   padding: 0;
+  -webkit-tap-highlight-color: transparent;
 }
 
 :root {
   font-synthesis: none;
-  
+
   --max-width: 1180px;
-  
+
   --font-family: 'Poppins', sans-serif;
   --font-releway: 'Raleway', sans-serif;
   --font-poppins: 'Poppins', sans-serif;
@@ -51,4 +52,3 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
