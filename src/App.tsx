@@ -2,12 +2,12 @@ import styles from "./App.module.scss";
 
 import { useState } from "react";
 
-import Logo from "./assets/logo.png";
-import Mail from "./assets/mail.png";
-import Phone from "./assets/phone.png";
-import WhatsappLogo from "./assets/whatsapp.png";
-import FacebookLogo from "./assets/facebook.png";
-import InstagramLogo from "./assets/instagram.png";
+import Logo from "@/assets/logo.png";
+import Mail from "@/assets/mail.png";
+import Phone from "@/assets/phone.png";
+import WhatsappLogo from "@/assets/whatsapp.png";
+import FacebookLogo from "@/assets/facebook.png";
+import InstagramLogo from "@/assets/instagram.png";
 
 function App() {
   const [pixCopy, setPixCopy] = useState(false);

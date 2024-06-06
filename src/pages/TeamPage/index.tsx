@@ -1,4 +1,4 @@
-import styles from "./Team.module.scss";
+import styles from "./TeamPage.module.scss";
 
 const Team = () => {
   return <main className={styles.Team}></main>;

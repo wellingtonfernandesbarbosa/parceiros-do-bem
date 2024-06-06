@@ -1,4 +1,4 @@
-import styles from "./About.module.scss";
+import styles from "./AboutPage.module.scss";
 
 import { useEffect, useState } from "react";
 import ClipboardJS from "clipboard";

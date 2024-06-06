@@ -1,4 +1,4 @@
-import styles from "./News.module.scss";
+import styles from "./NewsPage.module.scss";
 
 const News = () => {
   return <main className={styles.News}></main>;

@@ -1,4 +1,4 @@
-import styles from "./Galery.module.scss";
+import styles from "./GaleryPage.module.scss";
 
 const Galery = () => {
   return <div className={styles.galery}></div>;

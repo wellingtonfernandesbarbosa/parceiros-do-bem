@@ -1,4 +1,4 @@
-import styles from "./NotFound.module.scss";
+import styles from "./NotFoundPage.module.scss";
 
 const NotFound = () => {
   return <main className={styles.NotFound}></main>;

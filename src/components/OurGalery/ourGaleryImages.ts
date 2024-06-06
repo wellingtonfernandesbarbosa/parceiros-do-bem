@@ -1,11 +1,11 @@
-import aula from '../../assets/homeGalery/aula.webp';
-import ballet from '../../assets/homeGalery/ballet.webp';
-import equipe from '../../assets/homeGalery/equipe.webp';
-import formado from '../../assets/homeGalery/formado.webp';
-import herois_evento from '../../assets/homeGalery/herois_evento.webp';
-import luta_evento from '../../assets/homeGalery/luta_evento.webp';
-import manicure from '../../assets/homeGalery/manicure.webp';
-import touro_evento from '../../assets/homeGalery/touro_evento.webp';
+import aula from '@/assets/homeGalery/aula.webp';
+import ballet from '@/assets/homeGalery/ballet.webp';
+import equipe from '@/assets/homeGalery/equipe.webp';
+import formado from '@/assets/homeGalery/formado.webp';
+import herois_evento from '@/assets/homeGalery/herois_evento.webp';
+import luta_evento from '@/assets/homeGalery/luta_evento.webp';
+import manicure from '@/assets/homeGalery/manicure.webp';
+import touro_evento from '@/assets/homeGalery/touro_evento.webp';
 
 const photos = [
   { id: 0, src: aula, alt: 'aula', title: 'Aula' },

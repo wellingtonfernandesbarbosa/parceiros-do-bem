@@ -1,4 +1,4 @@
-import styles from "./Courses.module.scss";
+import styles from "./CoursesPage.module.scss";
 
 const Courses = () => {
   return <main className={styles.Courses}></main>;

@@ -2,20 +2,20 @@ import { RecoilRoot } from "recoil";
 import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import DefaultPage from "./pages/DefaultPage";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Courses from "./pages/Courses";
-import Events from "./pages/Events";
-import Team from "./pages/Team";
-import News from "./pages/News";
-import Contact from "./pages/Contact";
-import NotFound from "./pages/NotFound";
+import DefaultPage from "@/pages/DefaultPage";
+import Home from "@/pages/Home";
+import About from "@/pages/AboutPage";
+import Courses from "@/pages/CoursesPage";
+import Events from "@/pages/EventsPage";
+import Team from "@/pages/TeamPage";
+import News from "@/pages/NewsPage";
+import Contact from "@/pages/ContactPage";
+import NotFound from "@/pages/NotFoundPage";
 
-import Header from "./components/Header";
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
-import Galery from "./pages/Galery";
+import Header from "@/components/Header";
+import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
+import Galery from "@/pages/GaleryPage";
 
 export default function AppRoutes() {
   const [screenWidth, setScreenWidth] = useState<number>(window.innerWidth);

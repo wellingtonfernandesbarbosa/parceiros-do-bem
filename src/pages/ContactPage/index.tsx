@@ -1,4 +1,4 @@
-import styles from "./Contact.module.scss";
+import styles from "./ContactPage.module.scss";
 
 import { useState } from "react";
 
