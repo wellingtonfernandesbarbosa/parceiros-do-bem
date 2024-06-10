@@ -25,6 +25,7 @@ const Header = () => {
 
   const handleMenuClose = useCallback(() => {
     setIsActiveMenu(false);
+    hapticFeedback();
   }, []);
 
   const handleClickOutside = useCallback(

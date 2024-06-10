@@ -3,6 +3,7 @@ import { Title2 } from "../Typografy";
 import styles from "./Album.module.scss";
 import UpArrow from "@/assets/upArow.png";
 import DownArrow from "@/assets/downArrow.png";
+import hapticFeedback from "@/util/haptic";
 
 interface Ialbum {
   id: number;
@@ -17,11 +18,16 @@ const Album = ({ name, album }: { name: string; album: Ialbum[] }) => {
 
   const maxInitialPhotos = 8;
 
+  const handleAlbumClick = () => {
+    setShowAlbum(!showAlbum);
+    hapticFeedback();
+  }
+
   return (
     <div className={styles.container}>
       <div className={styles.container__header}>
         <Title2>{name}</Title2>
-        <img src={showAlbum ? UpArrow : DownArrow} onClick={() => setShowAlbum(!showAlbum)} className={styles.container__arrow} title="Ver mais" alt="" />
+        <img src={showAlbum ? UpArrow : DownArrow} onClick={handleAlbumClick} className={styles.container__arrow} title="Ver mais" alt="" />
       </div>
       {showAlbum && <div className={styles.container__album}>
         {album.slice(0, verMais ? album.length : maxInitialPhotos).map((photo: Ialbum) => (
