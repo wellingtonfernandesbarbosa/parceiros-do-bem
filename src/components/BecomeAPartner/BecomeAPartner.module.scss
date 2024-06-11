@@ -72,10 +72,18 @@
   }
 }
 
+@media screen and (max-width: 725px) {
+  .becomeAPartner {
+    &__becomeAPartnerContent {
+      padding-top: 64px;
+    }
+  }
+}
+
 @media screen and (max-width: 520px) {
   .becomeAPartner {
     &__becomeAPartnerContent {
-      padding: 0 16px;
+      padding: 64px 16px 0;
 
       &__description {
         width: 80%;

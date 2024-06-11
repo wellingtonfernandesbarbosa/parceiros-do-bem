@@ -1,6 +1,6 @@
-import Album from "@/components/Album";
 import styles from "./GaleryPage.module.scss";
 
+import Album from "@/components/Album";
 import balletAlbum from "@/components/BalletAlbum"; 
 import OccultFriend from "@/components/OccultFriend/OccultFriend";
 
