@@ -1,35 +1,35 @@
-import photo0 from "@/assets/galery/occultFriend/0.webp";
-import photo1 from "@/assets/galery/occultFriend/1.webp";
-import photo2 from "@/assets/galery/occultFriend/2.webp";
-import photo3 from "@/assets/galery/occultFriend/3.webp";
-import photo4 from "@/assets/galery/occultFriend/4.webp";
-import photo5 from "@/assets/galery/occultFriend/5.webp";
-import photo6 from "@/assets/galery/occultFriend/6.webp";
-import photo7 from "@/assets/galery/occultFriend/7.webp";
-import photo8 from "@/assets/galery/occultFriend/8.webp";
-import photo9 from "@/assets/galery/occultFriend/9.webp";
-import photo10 from "@/assets/galery/occultFriend/10.webp";
-import photo11 from "@/assets/galery/occultFriend/11.webp";
-import photo12 from "@/assets/galery/occultFriend/12.webp";
-import photo13 from "@/assets/galery/occultFriend/13.webp";
-import photo14 from "@/assets/galery/occultFriend/14.webp";
-import photo15 from "@/assets/galery/occultFriend/15.webp";
-import photo16 from "@/assets/galery/occultFriend/16.webp";
-import photo17 from "@/assets/galery/occultFriend/17.webp";
-import photo18 from "@/assets/galery/occultFriend/18.webp";
-import photo19 from "@/assets/galery/occultFriend/19.webp";
-import photo20 from "@/assets/galery/occultFriend/20.webp";
-import photo21 from "@/assets/galery/occultFriend/21.webp";
-import photo22 from "@/assets/galery/occultFriend/22.webp";
-import photo23 from "@/assets/galery/occultFriend/23.webp";
-import photo24 from "@/assets/galery/occultFriend/24.webp";
-import photo25 from "@/assets/galery/occultFriend/25.webp";
-import photo26 from "@/assets/galery/occultFriend/26.webp";
-import photo27 from "@/assets/galery/occultFriend/27.webp";
-import photo28 from "@/assets/galery/occultFriend/28.webp";
-import photo29 from "@/assets/galery/occultFriend/29.webp";
+import photo0 from "@/assets/galery/eventsAlbum/0.webp";
+import photo1 from "@/assets/galery/eventsAlbum/1.webp";
+import photo2 from "@/assets/galery/eventsAlbum/2.webp";
+import photo3 from "@/assets/galery/eventsAlbum/3.webp";
+import photo4 from "@/assets/galery/eventsAlbum/4.webp";
+import photo5 from "@/assets/galery/eventsAlbum/5.webp";
+import photo6 from "@/assets/galery/eventsAlbum/6.webp";
+import photo7 from "@/assets/galery/eventsAlbum/7.webp";
+import photo8 from "@/assets/galery/eventsAlbum/8.webp";
+import photo9 from "@/assets/galery/eventsAlbum/9.webp";
+import photo10 from "@/assets/galery/eventsAlbum/10.webp";
+import photo11 from "@/assets/galery/eventsAlbum/11.webp";
+import photo12 from "@/assets/galery/eventsAlbum/12.webp";
+import photo13 from "@/assets/galery/eventsAlbum/13.webp";
+import photo14 from "@/assets/galery/eventsAlbum/14.webp";
+import photo15 from "@/assets/galery/eventsAlbum/15.webp";
+import photo16 from "@/assets/galery/eventsAlbum/16.webp";
+import photo17 from "@/assets/galery/eventsAlbum/17.webp";
+import photo18 from "@/assets/galery/eventsAlbum/18.webp";
+import photo19 from "@/assets/galery/eventsAlbum/19.webp";
+import photo20 from "@/assets/galery/eventsAlbum/20.webp";
+import photo21 from "@/assets/galery/eventsAlbum/21.webp";
+import photo22 from "@/assets/galery/eventsAlbum/22.webp";
+import photo23 from "@/assets/galery/eventsAlbum/23.webp";
+import photo24 from "@/assets/galery/eventsAlbum/24.webp";
+import photo25 from "@/assets/galery/eventsAlbum/25.webp";
+import photo26 from "@/assets/galery/eventsAlbum/26.webp";
+import photo27 from "@/assets/galery/eventsAlbum/27.webp";
+import photo28 from "@/assets/galery/eventsAlbum/28.webp";
+import photo29 from "@/assets/galery/eventsAlbum/29.webp";
 
-const OccultFriend = [
+const EventsAlbum = [
   {
     id: 0,
     src: photo0,
@@ -183,4 +183,4 @@ const OccultFriend = [
   }
 ]
 
-export default OccultFriend;
+export default EventsAlbum;
