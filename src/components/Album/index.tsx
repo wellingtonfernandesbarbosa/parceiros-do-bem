@@ -3,18 +3,12 @@ import styles from "./Album.module.scss";
 import { useState } from "react";
 
 import { Title2 } from "../Typografy";
+import Ialbum from "@/types/albumTypes";
 import UpArrow from "@/assets/upArow.png";
 import hapticFeedback from "@/util/haptic";
 import DownArrow from "@/assets/downArrow.png";
 
-interface Ialbum {
-  id: number;
-  src: string;
-  alt: string;
-  title: string;
-}
-
-const Album = ({ name, album }: { name: string; album: Ialbum[] }) => {
+const Album = ({ name, album, handlePhotoClick }: { name: string; album: Ialbum[], handlePhotoClick: (album: Ialbum[], id: number) => void }) => {
   const [verMais, setVerMais] = useState(false);
   const [showAlbum, setShowAlbum] = useState(true);
 
@@ -33,7 +27,7 @@ const Album = ({ name, album }: { name: string; album: Ialbum[] }) => {
       </div>
       {showAlbum && <div className={styles.container__album}>
         {album.slice(0, verMais ? album.length : maxInitialPhotos).map((photo: Ialbum) => (
-          <img key={photo.id} src={photo.src} alt={photo.alt} title={photo.title} />
+          <img key={photo.id} src={photo.src} alt={photo.alt} title={photo.title} onClick={() => handlePhotoClick(album, photo.id)} />
         ))}
       </div>}
       {showAlbum && <div className={styles.container__footer}>
