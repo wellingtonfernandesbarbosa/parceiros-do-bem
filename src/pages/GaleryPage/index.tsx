@@ -5,9 +5,10 @@ import { useCallback, useEffect, useState } from "react";
 import Album from "@/components/Album";
 import Ialbum from "@/types/albumTypes";
 import hapticFeedback from "@/util/haptic";
-import balletAlbum from "@/components/BalletAlbum";
-import EventsAlbum from "@/components/EventsAlbum";
-import KidsPartyAlbum from "@/components/KidsPartyAlbum";
+import balletAlbum from "@/data/balletClass.json";
+import EventsAlbum from "@/data/eventsAlbum.json";
+import KidsPartyAlbum from "@/data/kidsPartyAlbum.json";
+import elderlyCaregiverClass from "@/data/elderlyCaregiverClass.json";
 
 const Galery = () => {
   const [modalAlbum, setModalAlbum] = useState<Ialbum[]>([]);
@@ -18,6 +19,7 @@ const Galery = () => {
     setIdImage(id);
     setModalAlbum(album);
     hapticFeedback();
+    window.history.pushState({}, "");
   };
 
   const nextImage = useCallback(() => {
@@ -34,31 +36,39 @@ const Galery = () => {
     const handleKeyDown = (event: KeyboardEvent) => {
       switch (event.key) {
         case "ArrowLeft":
-          nextImage();
+          idImage > 0 && nextImage();
           break;
-          case "ArrowRight":
-          prevImage();
+        case "ArrowRight":
+          idImage < modalAlbum.length - 1 && prevImage();
           break;
         case "Escape":
           setModalAlbum([]);
+          window.history.back();
           break;
         default:
           break;
       }
     };
 
+    const handlePopState = () => {
+      setModalAlbum([]);
+    };
+
     document.addEventListener("keydown", handleKeyDown);
+    window.addEventListener("popstate", handlePopState);
 
     return () => {
       document.removeEventListener("keydown", handleKeyDown);
+      window.removeEventListener("popstate", handlePopState);
     };
   }, [idImage, modalAlbum, nextImage, prevImage]);
 
   return (
     <div className={styles.galery}>
-      <Album album={balletAlbum} name="Aulas de Ballet" handlePhotoClick={handlePhotoClick} />
-      <Album album={EventsAlbum} name="Eventos" handlePhotoClick={handlePhotoClick} />
       <Album album={KidsPartyAlbum} name="Festa das Crianças" handlePhotoClick={handlePhotoClick} />
+      <Album album={balletAlbum} name="Aula de Ballet Infantil" handlePhotoClick={handlePhotoClick} />
+      <Album album={elderlyCaregiverClass} name="Aula de Cuidador de Idosos" handlePhotoClick={handlePhotoClick} />
+      <Album album={EventsAlbum} name="Eventos" handlePhotoClick={handlePhotoClick} />
 
       {modalAlbum.length > 0 && (
         <div className={styles.galery__modal}>
@@ -78,7 +88,13 @@ const Galery = () => {
                 </button>
               ) : null}
             </div>
-            <button className={styles.galery__modal__footer__closeButton} onClick={() => setModalAlbum([])}>
+            <button
+              className={styles.galery__modal__footer__closeButton}
+              onClick={() => {
+                setModalAlbum([]);
+                window.history.back();
+              }}
+            >
               Fechar
             </button>
           </div>
