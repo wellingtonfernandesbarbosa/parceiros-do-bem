@@ -16,6 +16,7 @@ import Header from "@/components/Header";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import Galery from "@/pages/GaleryPage";
+import CoursePage from "./pages/CoursePage";
 
 export default function AppRoutes() {
   const [screenWidth, setScreenWidth] = useState<number>(window.innerWidth);
@@ -42,6 +43,7 @@ export default function AppRoutes() {
             <Route index element={<Home />} />
             <Route path="sobre" element={<About />} />
             <Route path="cursos" element={<Courses />} />
+            <Route path="cursos/:id" element={<CoursePage />} />
             <Route path="eventos" element={<Events />} />
             <Route path="galeria" element={<Galery />} />
             <Route path="equipe" element={<Team />} />

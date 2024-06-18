@@ -7,23 +7,23 @@ export const recoilRoutes = atom({
       name: "Home", link: ""
     },
     {
-      name: "Sobre", link: "sobre"
-    },
-    {
       name: "Cursos", link: "cursos"
-    },
-    {
-      name: "Eventos", link: "eventos"
     },
     {
       name: "Galeria", link: "galeria"
     },
     {
-      name: "Equipe", link: "equipe"
+      name: "Sobre", link: "sobre"
     },
-    {
-      name: "Notícias", link: "noticias"
-    },
+    // {
+    //   name: "Eventos", link: "eventos"
+    // },
+    // {
+    //   name: "Equipe", link: "equipe"
+    // },
+    // {
+    //   name: "Notícias", link: "noticias"
+    // },
     {
       name: "Contato", link: "contato"
     }
