@@ -35,3 +35,23 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .Courses {
+    &__container {
+      &__header {
+        padding-bottom: 32px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Courses {
+    &__container {
+      &__header {
+        padding-bottom: 16px;
+      }
+    }
+  }
+}
