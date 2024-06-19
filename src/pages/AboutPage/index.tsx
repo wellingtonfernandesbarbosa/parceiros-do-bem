@@ -1,14 +1,19 @@
 import styles from "./AboutPage.module.scss";
 
-import { useEffect, useState } from "react";
 import ClipboardJS from "clipboard";
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 
 import { useParceiroDoBem } from "@/hooks";
+import ScrollToTop from "@/util/scrollToTop";
 import hapticFeedback from "@/util/hapticFeedback";
 
 const About = () => {
   const [pixCopy, setPixCopy] = useState(false);
   const parceirosDoBem = useParceiroDoBem()[0];
+  const param = Number(useParams().id);
+
+  ScrollToTop(param);
 
   useEffect(() => {
     const clipboard = new ClipboardJS(".copy-button");

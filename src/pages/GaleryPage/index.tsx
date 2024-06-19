@@ -1,9 +1,11 @@
 import styles from "./GaleryPage.module.scss";
 
+import { useParams } from "react-router-dom";
 import { useCallback, useEffect, useState } from "react";
 
 import Album from "@/components/Album";
 import Ialbum from "@/types/albumTypes";
+import ScrollToTop from "@/util/scrollToTop";
 import balletAlbum from "@/data/balletClass.json";
 import EventsAlbum from "@/data/eventsAlbum.json";
 import hapticFeedback from "@/util/hapticFeedback";
@@ -13,6 +15,9 @@ import elderlyCaregiverClass from "@/data/elderlyCaregiverClass.json";
 const Galery = () => {
   const [modalAlbum, setModalAlbum] = useState<Ialbum[]>([]);
   const [idImage, setIdImage] = useState(0);
+  const param = Number(useParams().id);
+
+  ScrollToTop(param);
 
   const handlePhotoClick = (album: Ialbum[], id: number) => {
     setIdImage(id);

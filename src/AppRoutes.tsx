@@ -2,15 +2,15 @@ import { RecoilRoot } from "recoil";
 import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import DefaultPage from "@/pages/DefaultPage";
 import Home from "@/pages/Home";
-import About from "@/pages/AboutPage";
-import Courses from "@/pages/CoursesPage";
-import Events from "@/pages/EventsPage";
 import Team from "@/pages/TeamPage";
 import News from "@/pages/NewsPage";
+import About from "@/pages/AboutPage";
+import Events from "@/pages/EventsPage";
+import Courses from "@/pages/CoursesPage";
 import Contact from "@/pages/ContactPage";
 import NotFound from "@/pages/NotFoundPage";
+import DefaultPage from "@/pages/DefaultPage";
 
 import Header from "@/components/Header";
 import NavBar from "@/components/NavBar";

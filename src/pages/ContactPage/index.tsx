@@ -1,12 +1,14 @@
 import styles from "./ContactPage.module.scss";
 
 import { useState } from "react";
+import { useParams } from "react-router-dom";
 
 import Banner from "@/components/Banner";
 import { useParceiroDoBem } from "@/hooks";
+import ScrollToTop from "@/util/scrollToTop";
 import { Title3 } from "@/components/Typografy";
-import SocialMediaLinks from "@/components/SocialMediaLinks";
 import ContactBanner from "@/assets/contactBanner.webp";
+import SocialMediaLinks from "@/components/SocialMediaLinks";
 
 const Contact = () => {
   const ParceirosDoBem = useParceiroDoBem()[0];
@@ -14,6 +16,9 @@ const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [feedbackSent, setFeedbackSent] = useState(false);
+  const param = Number(useParams().id);
+
+  ScrollToTop(param);
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
