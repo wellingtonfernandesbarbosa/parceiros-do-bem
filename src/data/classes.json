@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "course": "Violão",
+    "name": "Violão",
     "small_description": "Aprenda a tocar violão com técnicas para iniciantes e intermediários.",
     "description": "Nessa aula de violão, você aprenderá desde os acordes básicos até técnicas mais avançadas, permitindo que toque suas músicas favoritas com confiança.",
     "teachers": [
@@ -18,7 +18,7 @@
   },
   {
     "id": 2,
-    "course": "Teclado",
+    "name": "Teclado",
     "small_description": "Domine o teclado com aulas práticas e teóricas.",
     "description": "As aulas de teclado cobrem leitura de partituras, técnicas de mão e coordenação, além de ensinar a tocar diversos estilos musicais.",
     "teachers": [
@@ -35,7 +35,7 @@
   },
   {
     "id": 3,
-    "course": "Ballet Infantil",
+    "name": "Ballet Infantil",
     "small_description": "Introdução ao ballet para crianças.",
     "description": "Essa aula de ballet infantil é projetada para desenvolver a coordenação motora, flexibilidade e disciplina através de exercícios e coreografias divertidas.",
     "teachers": [
@@ -52,7 +52,7 @@
   },
   {
     "id": 4,
-    "course": "Ballet Adulto",
+    "name": "Ballet Adulto",
     "small_description": "Aprimore sua técnica de ballet com aulas para adultos.",
     "description": "As aulas de ballet para adultos focam em melhorar a técnica, força e flexibilidade, oferecendo um ótimo exercício físico e mental.",
     "teachers": [
@@ -69,7 +69,7 @@
   },
   {
     "id": 5,
-    "course": "Jiu-Jitsu",
+    "name": "Jiu-Jitsu",
     "small_description": "Aprenda técnicas de defesa pessoal e condicionamento físico.",
     "description": "Aulas de Jiu-Jitsu que ensinam desde o básico até técnicas avançadas de combate, focando em defesa pessoal, controle do corpo e preparo físico.",
     "teachers": [
@@ -86,9 +86,9 @@
   },
   {
     "id": 6,
-    "course": "Crochê",
+    "name": "Crochê",
     "small_description": "Desenvolva habilidades manuais e crie peças únicas.",
-    "description": "Nessas aulas de crochê, você aprenderá desde os pontos básicos até técnicas mais complexas, criando peças variadas como roupas, acessórios e itens de decoração.",
+    "description": "Nessas aulas de crochê, você aprenderá desde os pontos básicos até técnicas mais complexas, criando peças variadas como roupas, acessórios e itens de decoração.\n\n![Aula de Crochê](https://scontent.fplu37-1.fna.fbcdn.net/v/t39.30808-6/320920193_5818536041537168_7549111007528882875_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=TEtugEDp6ygQ7kNvgHijkKk&_nc_ht=scontent.fplu37-1.fna&oh=00_AYC_1aMUktCcqYmUY1z_osSVo0EzZgLbuvmFnSPFM27d4g&oe=6678B005)\n\n",
     "teachers": [
       "Mariana"
     ],
@@ -101,7 +101,7 @@
   },
   {
     "id": 7,
-    "course": "Artes",
+    "name": "Artes",
     "small_description": "Explore sua criatividade com diversas técnicas de arte.",
     "description": "As aulas de artes cobrem pintura, desenho, escultura e outras técnicas, proporcionando um ambiente para expressão criativa e desenvolvimento artístico.",
     "teachers": [
@@ -118,7 +118,7 @@
   },
   {
     "id": 8,
-    "course": "Dança",
+    "name": "Dança",
     "small_description": "Dance diversos estilos com técnicas para todos os níveis.",
     "description": "As aulas de dança incluem vários estilos como jazz, hip hop, dança de salão e contemporânea, focando em técnica, ritmo e expressão corporal.",
     "teachers": [
@@ -135,9 +135,9 @@
   },
   {
     "id": 9,
-    "course": "Taekwondo Infantil",
+    "name": "Taekwondo Infantil",
     "small_description": "Aulas de Taekwondo para crianças.",
-    "description": "Essas aulas de Taekwondo infantil visam desenvolver a disciplina, coordenação e autoconfiança das crianças através de técnicas e exercícios apropriados para a idade.",
+    "description": "Essas aulas de Taekwondo infantil visam desenvolver a disciplina, coordenação e autoconfiança das crianças através de técnicas e exercícios apropriados para a idade.\n\n![Aula de Taekwondo](https://scontent.fplu37-1.fna.fbcdn.net/v/t39.30808-6/320429220_655422383046593_7653126192235353547_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ni1Fko4xNZoQ7kNvgGwQwB_&_nc_ht=scontent.fplu37-1.fna&oh=00_AYBakPBKcWEYaz62CPiMfVAyvJbJnbeUC_r3LJZOqTrTRA&oe=6678AE48)\n\n",
     "teachers": [
       "Fernando",
       "Paulo"
@@ -152,7 +152,7 @@
   },
   {
     "id": 10,
-    "course": "Taekwondo Adulto",
+    "name": "Taekwondo Adulto",
     "small_description": "Treinamento de Taekwondo para adultos.",
     "description": "As aulas de Taekwondo para adultos focam em técnicas de combate, defesa pessoal e condicionamento físico, proporcionando um excelente exercício e desenvolvimento mental.",
     "teachers": [
@@ -169,7 +169,7 @@
   },
   {
     "id": 11,
-    "course": "Atividades Físicas Infantil",
+    "name": "Atividades Físicas Infantil",
     "small_description": "Exercícios divertidos para crianças.",
     "description": "Essas aulas de atividades físicas para crianças incluem uma variedade de exercícios lúdicos que promovem o desenvolvimento físico, coordenação e hábitos saudáveis.",
     "teachers": [
@@ -185,7 +185,7 @@
   },
   {
     "id": 12,
-    "course": "Atividades Física Adulto",
+    "name": "Atividades Física Adulto",
     "small_description": "Manter a forma com atividades físicas variadas.",
     "description": "As aulas de atividades físicas para adultos incluem exercícios de fortalecimento, alongamento e condicionamento, projetados para melhorar a saúde geral e o bem-estar.",
     "teachers": [

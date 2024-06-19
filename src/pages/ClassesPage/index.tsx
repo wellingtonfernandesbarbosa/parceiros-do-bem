@@ -2,6 +2,7 @@ import styles from "./ClassesPage.module.scss";
 
 import lessons from "@/data/classes.json";
 import { Paragraph, Title3 } from "@/components/Typografy";
+import { Link } from "react-router-dom";
 
 const ClassesPage = () => {
   return (
@@ -10,7 +11,9 @@ const ClassesPage = () => {
         <ul className={styles.ClassesPage__container__list}>
           {lessons.map((lesson) => (
             <li key={lesson.id} className={styles.ClassesPage__container__list__item}>
-              <Title3>{lesson.course}</Title3>
+              <Link to={`/aulas/${lesson.id}`}>
+                <Title3>{lesson.name}</Title3>
+              </Link>
               <Paragraph>{lesson.small_description}</Paragraph>
             </li>
           ))}

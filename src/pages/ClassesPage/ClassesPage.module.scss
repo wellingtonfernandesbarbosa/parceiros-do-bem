@@ -12,8 +12,12 @@
       gap: 32px;
 
       &__item {
-        h3 {
-          color: var(--primary-color);
+        a {
+          display: block;
+          width: fit-content;
+          h3 {
+            color: var(--primary-color);
+          }
         }
       }
     }
