@@ -1,11 +1,15 @@
 import styles from "./ClassesPage.module.scss";
 
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 import lessons from "@/data/classes.json";
+import ScrollToTop from "@/util/scrollToTop";
 import { Paragraph, Title2, Title3 } from "@/components/Typografy";
 
 const ClassesPage = () => {
+  const param = Number(useParams().id);
+
+  ScrollToTop(param);
   return (
     <main className={styles.ClassesPage}>
       <div className={styles.ClassesPage__container}>
