@@ -12,11 +12,12 @@ import Contact from "@/pages/ContactPage";
 import NotFound from "@/pages/NotFoundPage";
 import DefaultPage from "@/pages/DefaultPage";
 
+import Galery from "@/pages/GaleryPage";
 import Header from "@/components/Header";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
-import Galery from "@/pages/GaleryPage";
-import CoursePage from "./pages/CoursePage";
+import CoursePage from "@/pages/CoursePage";
+import ClassesPage from "@/pages/ClassesPage";
 
 export default function AppRoutes() {
   const [screenWidth, setScreenWidth] = useState<number>(window.innerWidth);
@@ -44,6 +45,7 @@ export default function AppRoutes() {
             <Route path="sobre" element={<About />} />
             <Route path="cursos" element={<Courses />} />
             <Route path="cursos/:id" element={<CoursePage />} />
+            <Route path="aulas" element={<ClassesPage />} />
             <Route path="eventos" element={<Events />} />
             <Route path="galeria" element={<Galery />} />
             <Route path="equipe" element={<Team />} />

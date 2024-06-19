@@ -6,7 +6,7 @@ import courses from "@/data/courses.json";
 import ScrollToTop from "@/util/scrollToTop";
 import { Paragraph, Title3 } from "@/components/Typografy";
 
-const Courses = () => {
+const CoursesPage = () => {
   const param = Number(useParams().id);
 
   ScrollToTop(param);
@@ -28,4 +28,4 @@ const Courses = () => {
   );
 };
 
-export default Courses;
+export default CoursesPage;

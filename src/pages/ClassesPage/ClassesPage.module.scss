@@ -1,0 +1,21 @@
+.ClassesPage {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 32px 16px;
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+
+      &__item {
+        h3 {
+          color: var(--primary-color);
+        }
+      }
+    }
+  }
+}
