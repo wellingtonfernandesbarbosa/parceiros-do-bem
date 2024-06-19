@@ -1,8 +1,9 @@
 import styles from "./ClassesPage.module.scss";
 
+import { Link } from "react-router-dom";
+
 import lessons from "@/data/classes.json";
 import { Paragraph, Title3 } from "@/components/Typografy";
-import { Link } from "react-router-dom";
 
 const ClassesPage = () => {
   return (

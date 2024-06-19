@@ -17,7 +17,7 @@ const CoursesPage = () => {
           {courses.map((course) => (
             <li key={course.id} className={styles.Courses__container__list__item}>
               <Link to={`/cursos/${course.id}`}>
-                <Title3>{course.course}</Title3>
+                <Title3>{course.name}</Title3>
               </Link>
               <Paragraph>{course.small_description}</Paragraph>
             </li>

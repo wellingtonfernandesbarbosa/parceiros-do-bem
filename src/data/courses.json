@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "course": "Barbeiro",
+    "name": "Barbeiro",
     "small_description": "Aprenda as técnicas modernas de barbearia com profissionais experientes.",
     "description": "No curso de Barbeiro, você aprenderá as técnicas modernas de corte, modelagem de barba e cuidados com a pele. Com aulas práticas e teóricas, nossos instrutores João e Pedro irão guiá-lo através de cada passo, garantindo que você esteja pronto para atender seus futuros clientes com excelência.",
     "teachers": [
@@ -15,7 +15,7 @@
   },
   {
     "id": 2,
-    "course": "Cabelereiro Feminino",
+    "name": "Cabelereiro Feminino",
     "small_description": "Domine as técnicas de corte e penteados femininos com este curso.",
     "description": "O curso de Cabelereiro Feminino é projetado para ensinar cortes, coloração, penteados e tratamentos capilares. Instrutores experientes, Ana e Maria, estarão disponíveis para orientar e ajudar você a desenvolver suas habilidades ao máximo.",
     "teachers": [
@@ -29,7 +29,7 @@
   },
   {
     "id": 3,
-    "course": "Manicure",
+    "name": "Manicure",
     "small_description": "Aprenda a arte do cuidado com as unhas e ofereça serviços profissionais.",
     "description": "No curso de Manicure, você aprenderá sobre cuidados com unhas, técnicas de esmaltação, e como oferecer um serviço completo e profissional. Nossas instrutoras, Carla e Beatriz, fornecerão todo o suporte necessário para que você se torne uma manicure de sucesso.",
     "teachers": [
@@ -43,7 +43,7 @@
   },
   {
     "id": 4,
-    "course": "Alongamento de unha",
+    "name": "Alongamento de unha",
     "small_description": "Torne-se um especialista em alongamento de unhas com este curso.",
     "description": "O curso de Alongamento de Unha oferece técnicas de aplicação e manutenção de unhas postiças e de gel. Instrutoras Julia e Fernanda ensinarão as melhores práticas para garantir que suas clientes saiam satisfeitas.",
     "teachers": [
@@ -57,7 +57,7 @@
   },
   {
     "id": 5,
-    "course": "Trança",
+    "name": "Trança",
     "small_description": "Aprenda diversas técnicas de trança e encante suas clientes.",
     "description": "O curso de Trança oferece uma variedade de técnicas, desde tranças simples até as mais complexas.\n\n![Aula de Trança](https://i.imgur.com/gPklmsc.jpg)\n\n> Nossos instrutores, Marcos e Rita, irão te ensinar tudo o que você precisa para criar penteados incríveis.",
     "teachers": [
@@ -71,7 +71,7 @@
   },
   {
     "id": 6,
-    "course": "Depilação",
+    "name": "Depilação",
     "small_description": "Torne-se um profissional de depilação e ofereça um serviço completo.",
     "description": "O curso de Depilação ensina técnicas variadas de depilação corporal e facial, incluindo métodos tradicionais e avançados. Instrutoras Paula e Sofia estarão disponíveis para garantir que você aprenda tudo de forma prática e segura.",
     "teachers": [
@@ -85,7 +85,7 @@
   },
   {
     "id": 7,
-    "course": "Designer de sobrancelhas",
+    "name": "Designer de sobrancelhas",
     "small_description": "Especialize-se em designer de sobrancelhas e realce a beleza de suas clientes.",
     "description": "O curso de Designer de Sobrancelhas oferece técnicas de modelagem, coloração e manutenção de sobrancelhas. Instrutores Luana e Carlos te ensinarão a transformar sobrancelhas de forma profissional e precisa.",
     "teachers": [
@@ -99,7 +99,7 @@
   },
   {
     "id": 8,
-    "course": "Cuidador de Idosos",
+    "name": "Cuidador de Idosos",
     "small_description": "Capacite-se para cuidar de idosos com dedicação e conhecimento.",
     "description": "O curso de Cuidador de Idosos ensina práticas de cuidado, saúde e bem-estar para a terceira idade. Instrutores Marcos e Helena compartilharão suas experiências para garantir que você esteja preparado para oferecer cuidados de qualidade.",
     "teachers": [
@@ -113,7 +113,7 @@
   },
   {
     "id": 9,
-    "course": "Primeiros socorros",
+    "name": "Primeiros socorros",
     "small_description": "Aprenda técnicas de primeiros socorros e esteja preparado para emergências.",
     "description": "O curso de Primeiros Socorros ensina técnicas essenciais de resposta a emergências médicas. Instrutores Lucas e André irão proporcionar treinamento prático para garantir que você esteja preparado para agir em situações críticas.",
     "teachers": [
@@ -127,7 +127,7 @@
   },
   {
     "id": 10,
-    "course": "Porteiro e Vigia",
+    "name": "Porteiro e Vigia",
     "small_description": "Torne-se um profissional qualificado para funções de porteiro e vigia.",
     "description": "O curso de Porteiro e Vigia oferece treinamento em segurança, controle de acesso e atendimento ao público. Instrutores Roberto e Sandra irão te preparar para atuar com eficiência e responsabilidade.",
     "teachers": [
@@ -141,7 +141,7 @@
   },
   {
     "id": 11,
-    "course": "Libras",
+    "name": "Libras",
     "small_description": "Aprenda a Língua Brasileira de Sinais e expanda suas habilidades comunicativas.",
     "description": "O curso de Libras ensina a Língua Brasileira de Sinais, proporcionando habilidades para comunicação com a comunidade surda. Instrutores Marina e Felipe irão guiar o aprendizado com métodos práticos e didáticos.",
     "teachers": [
@@ -155,7 +155,7 @@
   },
   {
     "id": 12,
-    "course": "Inglês Adulto",
+    "name": "Inglês Adulto",
     "small_description": "Desenvolva suas habilidades no idioma inglês com nosso curso para adultos.",
     "description": "O curso de Inglês Adulto é ideal para quem deseja aprender ou melhorar o inglês. Instrutores Amanda e João irão te ajudar a desenvolver habilidades de conversação, escrita e compreensão auditiva.",
     "teachers": [
@@ -169,7 +169,7 @@
   },
   {
     "id": 13,
-    "course": "Inglês Infantil",
+    "name": "Inglês Infantil",
     "small_description": "Introduza seu filho ao idioma inglês de maneira divertida e interativa.",
     "description": "O curso de Inglês Infantil oferece uma introdução divertida e interativa ao inglês para crianças. Instrutores Paulo e Sara utilizam jogos e atividades lúdicas para facilitar o aprendizado.",
     "teachers": [
@@ -183,7 +183,7 @@
   },
   {
     "id": 14,
-    "course": "Informática",
+    "name": "Informática",
     "small_description": "Adquira habilidades essenciais em informática e tecnologia.",
     "description": "O curso de Informática ensina desde o básico até conceitos avançados em tecnologia da informação. Instrutores Bruno e Renata irão te ajudar a desenvolver competências em softwares, internet e segurança digital.",
     "teachers": [
@@ -197,7 +197,7 @@
   },
   {
     "id": 15,
-    "course": "Digitação",
+    "name": "Digitação",
     "small_description": "Melhore sua velocidade e precisão na digitação com nosso curso prático.",
     "description": "O curso de Digitação é projetado para melhorar sua velocidade e precisão ao digitar. Com a ajuda dos instrutores Eduardo e Carolina, você aprenderá técnicas eficazes para aumentar sua produtividade no computador.",
     "teachers": [
@@ -211,7 +211,7 @@
   },
   {
     "id": 16,
-    "course": "Artesanato",
+    "name": "Artesanato",
     "small_description": "Desenvolva suas habilidades manuais e criatividade no curso de artesanato.",
     "description": "O curso de Artesanato oferece técnicas diversas para criação de peças artesanais. \n\n![Aula deArtesanato](https://i.imgur.com/PtbzR6H.jpg)\n\n A instrutora Larissa irá te guiar através de projetos criativos e inspiradores.",
     "teachers": [
@@ -227,7 +227,7 @@
   },
   {
     "id": 17,
-    "course": "Teatro",
+    "name": "Teatro",
     "small_description": "Explore seu talento artístico e aprenda técnicas teatrais.",
     "description": "O curso de Teatro ensina técnicas de atuação, expressão corporal e improvisação. Instrutores Lucas e Ana estarão disponíveis para ajudar você a desenvolver suas habilidades teatrais e brilhar nos palcos.",
     "teachers": [
@@ -241,7 +241,7 @@
   },
   {
     "id": 18,
-    "course": "Departamento Pessoal",
+    "name": "Departamento Pessoal",
     "small_description": "Capacite-se para atuar no setor de recursos humanos e departamento pessoal.",
     "description": "O curso de Departamento Pessoal oferece conhecimentos sobre rotinas de RH, legislação trabalhista e gestão de pessoas. Instrutores Marcos e Juliana irão compartilhar suas experiências para te preparar para o mercado de trabalho.",
     "teachers": [
@@ -255,7 +255,7 @@
   },
   {
     "id": 19,
-    "course": "SPA dos Pés",
+    "name": "SPA dos Pés",
     "small_description": "Aprenda técnicas de cuidados e tratamentos para os pés.",
     "description": "O curso de SPA dos Pés ensina cuidados e tratamentos para relaxamento e saúde dos pés. Instrutoras Laura e Silvia irão te ensinar técnicas de massagem e terapias para garantir o bem-estar dos seus clientes.",
     "teachers": [
