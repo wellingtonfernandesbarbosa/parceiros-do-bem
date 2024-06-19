@@ -4,9 +4,9 @@ import { useCallback, useEffect, useState } from "react";
 
 import Album from "@/components/Album";
 import Ialbum from "@/types/albumTypes";
-import hapticFeedback from "@/util/haptic";
 import balletAlbum from "@/data/balletClass.json";
 import EventsAlbum from "@/data/eventsAlbum.json";
+import hapticFeedback from "@/util/hapticFeedback";
 import KidsPartyAlbum from "@/data/kidsPartyAlbum.json";
 import elderlyCaregiverClass from "@/data/elderlyCaregiverClass.json";
 
@@ -15,7 +15,6 @@ const Galery = () => {
   const [idImage, setIdImage] = useState(0);
 
   const handlePhotoClick = (album: Ialbum[], id: number) => {
-    console.log(id);
     setIdImage(id);
     setModalAlbum(album);
     hapticFeedback();

@@ -7,9 +7,9 @@ import mailIcon from "@/assets/mail-white.png";
 
 import NavBar from "../NavBar";
 import { useParceiroDoBem } from "@/hooks";
-import { LinkTelFormatter } from "@/util";
 import SocialMediaLinks from "../SocialMediaLinks";
 import { useLocation } from "react-router-dom";
+import LinkTelFormatter from "@/util/linkTelFormater";
 
 const Footer = () => {
   const parceirosDoBem = useParceiroDoBem()[0];

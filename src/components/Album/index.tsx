@@ -5,8 +5,8 @@ import { useState } from "react";
 import { Title3 } from "../Typografy";
 import Ialbum from "@/types/albumTypes";
 import UpArrow from "@/assets/upArow.png";
-import hapticFeedback from "@/util/haptic";
 import DownArrow from "@/assets/downArrow.png";
+import hapticFeedback from "@/util/hapticFeedback";
 
 const Album = ({ name, album, handlePhotoClick }: { name: string; album: Ialbum[], handlePhotoClick: (album: Ialbum[], id: number) => void }) => {
   const [verMais, setVerMais] = useState(false);

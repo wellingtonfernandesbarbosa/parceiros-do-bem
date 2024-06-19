@@ -1,9 +1,11 @@
-import { Paragraph, Title2, Title3 } from "../Typografy";
 import styles from "./OurGalery.module.scss";
-import divisoryIcon from "../../assets/grayDivisory.svg";
+
 import { Link } from "react-router-dom";
+
 import photos from "./ourGaleryImages";
-import hapticFeedback from "@/util/haptic";
+import hapticFeedback from "@/util/hapticFeedback";
+import divisoryIcon from "../../assets/grayDivisory.svg";
+import { Paragraph, Title2, Title3 } from "../Typografy";
 
 const OurGalery = () => {
   return (
