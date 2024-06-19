@@ -1,42 +1,50 @@
 [
   {
-    "id": 1,
-    "name": "Barbeiro",
-    "small_description": "Aprenda as técnicas modernas de barbearia com profissionais experientes.",
-    "description": "No curso de Barbeiro, você aprenderá as técnicas modernas de corte, modelagem de barba e cuidados com a pele. Com aulas práticas e teóricas, nossos instrutores João e Pedro irão guiá-lo através de cada passo, garantindo que você esteja pronto para atender seus futuros clientes com excelência.",
-    "teachers": [
-      "João",
-      "Pedro"
-    ],
-    "day": ["Segunda", "Quarta"],
-    "start_time": "18:00",
-    "end_time": "20:00",
-    "solidarity_price": "R$ 30,00"
-  },
+  "id": 1,
+  "name": "Barbeiro",
+  "small_description": "Aprenda as técnicas modernas de barbearia com profissionais experientes.",
+  "description": "Explore o mundo da barbearia moderna com o curso de Barbeiro. Nossos instrutores experientes, João e Pedro, oferecem aulas práticas e teóricas abrangendo técnicas avançadas de corte de cabelo, modelagem de barba e cuidados com a pele. Prepare-se para dominar habilidades essenciais que o capacitam a oferecer serviços de alta qualidade aos seus clientes, combinando precisão técnica com criatividade e atendimento personalizado.",
+  "teachers": [
+    "João",
+    "Pedro"
+  ],
+  "day": ["Segunda", "Quarta"],
+  "start_time": "18:00",
+  "end_time": "20:00",
+  "solidarity_price": "R$ 30,00"
+}
+,
   {
-    "id": 2,
-    "name": "Cabelereiro Feminino",
-    "small_description": "Domine as técnicas de corte e penteados femininos com este curso.",
-    "description": "O curso de Cabelereiro Feminino é projetado para ensinar cortes, coloração, penteados e tratamentos capilares. Instrutores experientes, Ana e Maria, estarão disponíveis para orientar e ajudar você a desenvolver suas habilidades ao máximo.",
-    "teachers": [
-      "Ana",
-      "Maria"
-    ],
-    "day": ["Terça", "Quinta"],
-    "start_time": "14:00",
-    "end_time": "16:00",
-    "solidarity_price": "R$ 30,00"
-  },
+  "id": 2,
+  "name": "Cabelereiro Feminino",
+  "small_description": "Domine as técnicas de corte e penteados femininos com este curso.",
+  "description": "Explore o mundo da beleza e aprenda técnicas avançadas de cabelereiro feminino neste curso abrangente. Desenvolva habilidades em cortes modernos, coloração, penteados criativos e tratamentos capilares, sob a orientação dos experientes instrutores Ana e Maria. Ideal para quem busca aprimorar suas habilidades profissionais ou simplesmente explorar uma paixão por cuidados com o cabelo.",
+  "teachers": [
+    "Ana",
+    "Maria"
+  ],
+  "day": [
+    "Terça",
+    "Quinta"
+  ],
+  "start_time": "14:00",
+  "end_time": "16:00",
+  "solidarity_price": "R$ 30,00"
+}
+,
   {
     "id": 3,
     "name": "Manicure",
     "small_description": "Aprenda a arte do cuidado com as unhas e ofereça serviços profissionais.",
-    "description": "No curso de Manicure, você aprenderá sobre cuidados com unhas, técnicas de esmaltação, e como oferecer um serviço completo e profissional. Nossas instrutoras, Carla e Beatriz, fornecerão todo o suporte necessário para que você se torne uma manicure de sucesso.",
+    "description": "Descubra tudo sobre cuidados com unhas e técnicas avançadas de esmaltação no curso de Manicure. Com instrução especializada das professoras Carla e Beatriz, você será capacitado para oferecer serviços de manicure de alta qualidade. Aprenda desde a preparação das unhas até técnicas de decoração, garantindo um atendimento profissional e personalizado para suas clientes.",
     "teachers": [
       "Carla",
       "Beatriz"
     ],
-    "day": ["Quarta", "Sexta"],
+    "day": [
+      "Quarta",
+      "Sexta"
+    ],
     "start_time": "09:00",
     "end_time": "11:00",
     "solidarity_price": "R$ 30,00"
@@ -45,54 +53,63 @@
     "id": 4,
     "name": "Alongamento de unha",
     "small_description": "Torne-se um especialista em alongamento de unhas com este curso.",
-    "description": "O curso de Alongamento de Unha oferece técnicas de aplicação e manutenção de unhas postiças e de gel. Instrutoras Julia e Fernanda ensinarão as melhores práticas para garantir que suas clientes saiam satisfeitas.",
+    "description": "Aprenda técnicas avançadas de aplicação e manutenção de unhas postiças e de gel no curso de Alongamento de Unha. Sob a orientação das instrutoras Julia e Fernanda, você dominará as melhores práticas para proporcionar resultados incríveis às suas clientes. Ideal para quem deseja aperfeiçoar suas habilidades na área da estética e oferecer serviços de qualidade e satisfação.",
     "teachers": [
       "Julia",
       "Fernanda"
     ],
-    "day": ["Segunda", "Quinta"],
+    "day": [
+      "Segunda",
+      "Quinta"
+    ],
     "start_time": "10:00",
     "end_time": "12:00",
     "solidarity_price": "R$ 30,00"
   },
   {
     "id": 5,
-    "name": "Trança",
+    "name": "Curso de Trança",
     "small_description": "Aprenda diversas técnicas de trança e encante suas clientes.",
-    "description": "O curso de Trança oferece uma variedade de técnicas, desde tranças simples até as mais complexas.\n\n![Aula de Trança](https://i.imgur.com/gPklmsc.jpg)\n\n> Nossos instrutores, Marcos e Rita, irão te ensinar tudo o que você precisa para criar penteados incríveis.",
+    "description": "Descubra o mundo das tranças com nosso curso especializado, que abrange desde técnicas simples até as mais complexas, adequadas para qualquer ocasião.\n\n> Conheça Marcos e Rita, nossos instrutores experientes, que irão guiá-lo passo a passo na criação de penteados incríveis que vão impressionar. Aprenda não apenas a técnica, mas também dicas valiosas sobre cuidados com o cabelo e tendências atuais em penteados.",
     "teachers": [
       "Marcos",
       "Rita"
     ],
-    "day": ["Sexta"],
+    "day": [
+      "Sexta"
+    ],
     "start_time": "13:00",
     "end_time": "15:00",
     "solidarity_price": "R$ 30,00"
   },
   {
     "id": 6,
-    "name": "Depilação",
+    "name": "Curso de Depilação",
     "small_description": "Torne-se um profissional de depilação e ofereça um serviço completo.",
-    "description": "O curso de Depilação ensina técnicas variadas de depilação corporal e facial, incluindo métodos tradicionais e avançados. Instrutoras Paula e Sofia estarão disponíveis para garantir que você aprenda tudo de forma prática e segura.",
+    "description": "Aprenda as técnicas essenciais de depilação corporal e facial com o curso completo de Depilação. Este curso abrangente cobre métodos tradicionais e avançados, proporcionando habilidades práticas e seguras para você se destacar no mercado. Com as instrutoras experientes Paula e Sofia, você receberá orientações detalhadas e práticas para dominar todas as técnicas necessárias.",
     "teachers": [
       "Paula",
       "Sofia"
     ],
-    "day": ["Terça"],
+    "day": [
+      "Terça"
+    ],
     "start_time": "16:00",
     "end_time": "18:00",
     "solidarity_price": "R$ 30,00"
   },
   {
     "id": 7,
-    "name": "Designer de sobrancelhas",
+    "name": "Designer de Sobrancelhas",
     "small_description": "Especialize-se em designer de sobrancelhas e realce a beleza de suas clientes.",
-    "description": "O curso de Designer de Sobrancelhas oferece técnicas de modelagem, coloração e manutenção de sobrancelhas. Instrutores Luana e Carlos te ensinarão a transformar sobrancelhas de forma profissional e precisa.",
+    "description": "Aprofunde seus conhecimentos no curso de Designer de Sobrancelhas e domine técnicas avançadas de modelagem, coloração e manutenção de sobrancelhas. Com instrutores experientes como Luana e Carlos, você aprenderá a transformar sobrancelhas de maneira profissional e precisa, oferecendo serviços de alta qualidade para suas clientes. Ideal para quem deseja iniciar ou aprimorar uma carreira na área da estética facial, este curso proporciona os conhecimentos essenciais para se destacar no mercado.",
     "teachers": [
       "Luana",
       "Carlos"
     ],
-    "day": ["Quarta"],
+    "day": [
+      "Quarta"
+    ],
     "start_time": "10:00",
     "end_time": "12:00",
     "solidarity_price": "R$ 30,00"
@@ -101,26 +118,30 @@
     "id": 8,
     "name": "Cuidador de Idosos",
     "small_description": "Capacite-se para cuidar de idosos com dedicação e conhecimento.",
-    "description": "O curso de Cuidador de Idosos ensina práticas de cuidado, saúde e bem-estar para a terceira idade. Instrutores Marcos e Helena compartilharão suas experiências para garantir que você esteja preparado para oferecer cuidados de qualidade.",
+    "description": "Aprofunde seus conhecimentos no curso de Cuidador de Idosos, focado em práticas de cuidado, saúde e bem-estar para a terceira idade. Sob a orientação dos experientes instrutores Marcos e Helena, você aprenderá técnicas essenciais para proporcionar cuidados de qualidade, promovendo o conforto e a segurança dos idosos. Ideal para quem deseja desenvolver habilidades empáticas e práticas na assistência a idosos, este curso oferece uma oportunidade única de contribuir positivamente para a qualidade de vida dessa importante parte da população.",
     "teachers": [
       "Marcos",
       "Helena"
     ],
-    "day": ["Terça"],
+    "day": [
+      "Terça"
+    ],
     "start_time": "09:00",
     "end_time": "11:00",
     "solidarity_price": "R$ 30,00"
   },
   {
     "id": 9,
-    "name": "Primeiros socorros",
-    "small_description": "Aprenda técnicas de primeiros socorros e esteja preparado para emergências.",
-    "description": "O curso de Primeiros Socorros ensina técnicas essenciais de resposta a emergências médicas. Instrutores Lucas e André irão proporcionar treinamento prático para garantir que você esteja preparado para agir em situações críticas.",
+    "name": "Primeiros Socorros",
+    "small_description": "Aprenda técnicas essenciais para situações de emergência.",
+    "description": "O curso de Primeiros Socorros é projetado para ensinar técnicas essenciais de resposta a emergências médicas. Sob a orientação dos experientes instrutores Lucas e André, você receberá treinamento prático abrangente que cobre desde procedimentos básicos até intervenções avançadas, incluindo suporte básico de vida e gestão de crises. Este curso é ideal para qualquer pessoa que deseje estar preparada para agir de forma rápida e eficaz em situações críticas, proporcionando segurança e cuidado adequado às vítimas.",
     "teachers": [
       "Lucas",
       "André"
     ],
-    "day": ["Sexta"],
+    "day": [
+      "Sexta"
+    ],
     "start_time": "14:00",
     "end_time": "16:00",
     "solidarity_price": "R$ 30,00"
@@ -129,12 +150,14 @@
     "id": 10,
     "name": "Porteiro e Vigia",
     "small_description": "Torne-se um profissional qualificado para funções de porteiro e vigia.",
-    "description": "O curso de Porteiro e Vigia oferece treinamento em segurança, controle de acesso e atendimento ao público. Instrutores Roberto e Sandra irão te preparar para atuar com eficiência e responsabilidade.",
+    "description": "Prepare-se para se tornar um profissional qualificado nas áreas de porteiro e vigia com o nosso curso especializado. Sob a orientação dos instrutores Roberto e Sandra, você receberá treinamento abrangente em segurança, controle de acesso e atendimento ao público. Aprenda técnicas essenciais para desempenhar suas funções com eficiência e responsabilidade, garantindo um ambiente seguro e protegido.",
     "teachers": [
       "Roberto",
       "Sandra"
     ],
-    "day": ["Quarta"],
+    "day": [
+      "Quarta"
+    ],
     "start_time": "18:00",
     "end_time": "20:00",
     "solidarity_price": "R$ 30,00"
@@ -143,54 +166,60 @@
     "id": 11,
     "name": "Libras",
     "small_description": "Aprenda a Língua Brasileira de Sinais e expanda suas habilidades comunicativas.",
-    "description": "O curso de Libras ensina a Língua Brasileira de Sinais, proporcionando habilidades para comunicação com a comunidade surda. Instrutores Marina e Felipe irão guiar o aprendizado com métodos práticos e didáticos.",
+    "description": "Explore o mundo da Língua Brasileira de Sinais (Libras) neste curso que oferece uma introdução completa para se comunicar efetivamente com a comunidade surda. Ministrado pelos instrutores Marina e Felipe, você aprenderá os fundamentos essenciais da Libras através de métodos práticos e didáticos. Ideal para aqueles que desejam ampliar suas habilidades linguísticas e promover uma inclusão mais eficaz.",
     "teachers": [
       "Marina",
       "Felipe"
     ],
-    "day": ["Quinta"],
+    "day": [
+      "Quinta"
+    ],
     "start_time": "19:00",
     "end_time": "21:00",
     "solidarity_price": "R$ 30,00"
   },
   {
-    "id": 12,
-    "name": "Inglês Adulto",
-    "small_description": "Desenvolva suas habilidades no idioma inglês com nosso curso para adultos.",
-    "description": "O curso de Inglês Adulto é ideal para quem deseja aprender ou melhorar o inglês. Instrutores Amanda e João irão te ajudar a desenvolver habilidades de conversação, escrita e compreensão auditiva.",
-    "teachers": [
-      "Amanda",
-      "João"
-    ],
-    "day": ["Quarta"],
-    "start_time": "18:00",
-    "end_time": "20:00",
-    "solidarity_price": "R$ 30,00"
-  },
+  "id": 12,
+  "name": "Inglês Adulto",
+  "small_description": "Desenvolva suas habilidades no idioma inglês com nosso curso para adultos.",
+  "description": "Explore o mundo do idioma inglês com nosso curso voltado para adultos. Sob a orientação dos instrutores Amanda e João, você terá a oportunidade de aprimorar suas habilidades de conversação, escrita e compreensão auditiva.\n\n![Aula de Inglês](https://scontent.fplu37-1.fna.fbcdn.net/v/t39.30808-6/320397861_667133341625214_2423603025283419559_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=YvKBRuHfLswQ7kNvgHkd2K7&_nc_ht=scontent.fplu37-1.fna&oh=00_AYDBv1xs6dEEo7zudWD_auU190XcF6eLOrdIEyXj07T92w&oe=6678DC0E)\n\n Ideal para iniciantes ou para quem deseja aprofundar seus conhecimentos, as aulas são projetadas para oferecer uma experiência de aprendizado dinâmica e interativa, focada em práticas que facilitam a comunicação eficaz em diferentes contextos.",
+  "teachers": [
+    "Amanda",
+    "João"
+  ],
+  "day": ["Quarta"],
+  "start_time": "18:00",
+  "end_time": "20:00",
+  "solidarity_price": "R$ 30,00"
+}
+,
   {
-    "id": 13,
-    "name": "Inglês Infantil",
-    "small_description": "Introduza seu filho ao idioma inglês de maneira divertida e interativa.",
-    "description": "O curso de Inglês Infantil oferece uma introdução divertida e interativa ao inglês para crianças. Instrutores Paulo e Sara utilizam jogos e atividades lúdicas para facilitar o aprendizado.",
-    "teachers": [
-      "Paulo",
-      "Sara"
-    ],
-    "day": ["Terça"],
-    "start_time": "16:00",
-    "end_time": "18:00",
-    "solidarity_price": "R$ 30,00"
-  },
+  "id": 13,
+  "name": "Inglês Infantil",
+  "small_description": "Introduza seu filho ao idioma inglês de maneira divertida e interativa.",
+  "description": "O curso de Inglês Infantil proporciona uma introdução ao idioma de forma envolvente e interativa para crianças. Sob a orientação dos instrutores Paulo e Sara, as aulas são repletas de jogos e atividades lúdicas que estimulam o aprendizado e a familiarização com o inglês desde cedo.\n\n![Aula de Inglês](https://scontent.fplu37-1.fna.fbcdn.net/v/t39.30808-6/320397861_667133341625214_2423603025283419559_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=YvKBRuHfLswQ7kNvgHkd2K7&_nc_ht=scontent.fplu37-1.fna&oh=00_AYDBv1xs6dEEo7zudWD_auU190XcF6eLOrdIEyXj07T92w&oe=6678DC0E)\n\n Ideal para crianças que desejam começar a explorar um novo idioma de maneira natural e divertida.",
+  "teachers": [
+    "Paulo",
+    "Sara"
+  ],
+  "day": ["Terça"],
+  "start_time": "16:00",
+  "end_time": "18:00",
+  "solidarity_price": "R$ 30,00"
+}
+,
   {
     "id": 14,
     "name": "Informática",
     "small_description": "Adquira habilidades essenciais em informática e tecnologia.",
-    "description": "O curso de Informática ensina desde o básico até conceitos avançados em tecnologia da informação. Instrutores Bruno e Renata irão te ajudar a desenvolver competências em softwares, internet e segurança digital.",
+    "description": "Explore o mundo da informática com nosso curso abrangente, que cobre desde fundamentos básicos até conceitos avançados em tecnologia da informação. Com os instrutores Bruno e Renata, você desenvolverá competências essenciais em softwares, internet e segurança digital, preparando-se para enfrentar os desafios digitais do mundo contemporâneo. As aulas são projetadas para oferecer tanto conhecimento teórico quanto prático, garantindo uma aprendizagem sólida e aplicável.",
     "teachers": [
       "Bruno",
       "Renata"
     ],
-    "day": ["Segunda"],
+    "day": [
+      "Segunda"
+    ],
     "start_time": "14:00",
     "end_time": "16:00",
     "solidarity_price": "R$ 30,00"
@@ -199,12 +228,15 @@
     "id": 15,
     "name": "Digitação",
     "small_description": "Melhore sua velocidade e precisão na digitação com nosso curso prático.",
-    "description": "O curso de Digitação é projetado para melhorar sua velocidade e precisão ao digitar. Com a ajuda dos instrutores Eduardo e Carolina, você aprenderá técnicas eficazes para aumentar sua produtividade no computador.",
+    "description": "Aprimore sua velocidade e precisão na digitação com o curso prático de Digitação. Sob a orientação dos instrutores Eduardo e Carolina, você aprenderá técnicas eficazes para aumentar sua produtividade no computador. Este curso é ideal para quem deseja dominar a arte da digitação rápida e precisa, essencial para diversas áreas profissionais e pessoais. Você também receberá dicas valiosas para evitar erros comuns e melhorar sua confiança ao digitar.",
     "teachers": [
       "Eduardo",
       "Carolina"
     ],
-    "day": ["Segunda" , "Quarta"],
+    "day": [
+      "Segunda",
+      "Quarta"
+    ],
     "start_time": "17:00",
     "end_time": "19:00",
     "solidarity_price": "R$ 30,00"
@@ -213,7 +245,7 @@
     "id": 16,
     "name": "Artesanato",
     "small_description": "Desenvolva suas habilidades manuais e criatividade no curso de artesanato.",
-    "description": "O curso de Artesanato oferece técnicas diversas para criação de peças artesanais. \n\n![Aula deArtesanato](https://i.imgur.com/PtbzR6H.jpg)\n\n A instrutora Larissa irá te guiar através de projetos criativos e inspiradores.",
+    "description": "Descubra o mundo do artesanato e desenvolva suas habilidades manuais e criativas com o curso de Artesanato. Orientado pela instrutora Larissa, você explorará diversas técnicas para criar peças artesanais únicas e encantadoras. Este curso é perfeito para quem deseja expressar sua criatividade através das mãos, aprendendo desde projetos simples até obras mais complexas. As aulas são realizadas às terças e quintas, proporcionando uma oportunidade única de aprendizado e desenvolvimento pessoal.",
     "teachers": [
       "Larissa"
     ],
@@ -229,12 +261,15 @@
     "id": 17,
     "name": "Teatro",
     "small_description": "Explore seu talento artístico e aprenda técnicas teatrais.",
-    "description": "O curso de Teatro ensina técnicas de atuação, expressão corporal e improvisação. Instrutores Lucas e Ana estarão disponíveis para ajudar você a desenvolver suas habilidades teatrais e brilhar nos palcos.",
+    "description": "Descubra o mundo do teatro com nosso curso especializado, focado em técnicas de atuação, expressão corporal e improvisação. Sob a orientação dos instrutores Lucas e Ana, você terá a oportunidade de desenvolver suas habilidades artísticas e explorar diferentes formas de expressão teatral. Ideal para iniciantes e aqueles que desejam aprimorar suas habilidades, este curso proporciona um ambiente criativo e acolhedor para você brilhar nos palcos.",
     "teachers": [
       "Lucas",
       "Ana"
     ],
-    "day": ["Quarta", "Sexta"],
+    "day": [
+      "Quarta",
+      "Sexta"
+    ],
     "start_time": "14:00",
     "end_time": "16:00",
     "solidarity_price": "R$ 30,00"
@@ -243,12 +278,15 @@
     "id": 18,
     "name": "Departamento Pessoal",
     "small_description": "Capacite-se para atuar no setor de recursos humanos e departamento pessoal.",
-    "description": "O curso de Departamento Pessoal oferece conhecimentos sobre rotinas de RH, legislação trabalhista e gestão de pessoas. Instrutores Marcos e Juliana irão compartilhar suas experiências para te preparar para o mercado de trabalho.",
+    "description": "Aprofunde seus conhecimentos no curso de Departamento Pessoal, que aborda rotinas de RH, legislação trabalhista e gestão de pessoas. Com instrutores experientes como Marcos e Juliana, você aprenderá os fundamentos essenciais para se destacar no mercado de trabalho. Ideal para quem busca uma carreira na área de recursos humanos ou deseja aprimorar suas habilidades em gestão de pessoas.",
     "teachers": [
       "Marcos",
       "Juliana"
     ],
-    "day": ["Segunda", "Quarta"],
+    "day": [
+      "Segunda",
+      "Quarta"
+    ],
     "start_time": "10:00",
     "end_time": "12:00",
     "solidarity_price": "R$ 30,00"
@@ -257,12 +295,15 @@
     "id": 19,
     "name": "SPA dos Pés",
     "small_description": "Aprenda técnicas de cuidados e tratamentos para os pés.",
-    "description": "O curso de SPA dos Pés ensina cuidados e tratamentos para relaxamento e saúde dos pés. Instrutoras Laura e Silvia irão te ensinar técnicas de massagem e terapias para garantir o bem-estar dos seus clientes.",
+    "description": "Explore o curso de SPA dos Pés e descubra técnicas avançadas para cuidar da saúde e bem-estar dos pés. Com orientação das instrutoras Laura e Silvia, você aprenderá práticas de massagem e terapias específicas para relaxamento e revitalização dos pés. Ideal para quem deseja oferecer serviços de qualidade em cuidados estéticos ou simplesmente deseja aprender técnicas de autocuidado para manter os pés saudáveis e confortáveis.",
     "teachers": [
       "Laura",
       "Silvia"
     ],
-    "day": ["Terça", "Quinta"],
+    "day": [
+      "Terça",
+      "Quinta"
+    ],
     "start_time": "14:00",
     "end_time": "16:00",
     "solidarity_price": "R$ 30,00"

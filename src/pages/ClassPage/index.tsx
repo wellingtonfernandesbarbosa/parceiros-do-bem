@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 
-import lessons from "@/data/classes.json";
+import lessons from "@/data/lessons.json";
 import { useUpdateUrl } from "@/hooks";
 import DetailSection from "@/components/DetailSection";
 import ScrollToTop from "@/util/scrollToTop";
@@ -14,8 +14,6 @@ const ClassPage = () => {
 
   const updateUrl = useUpdateUrl;
   updateUrl(lesson?.name);
-
-  
 
   return (
     <main>

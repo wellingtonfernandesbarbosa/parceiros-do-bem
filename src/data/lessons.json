@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Violão",
+    "small_description": "Aprenda a tocar violão com técnicas para iniciantes e intermediários.",
+    "description": "Participe das nossas aulas de violão e descubra o prazer de tocar este instrumento versátil e encantador. Sob a orientação dos talentosos instrutores João e Pedro, você aprenderá desde os acordes básicos até técnicas mais avançadas, permitindo que você toque suas músicas favoritas com confiança e precisão.\n\nAs aulas são projetadas para atender tanto iniciantes quanto alunos de nível intermediário, abordando teoria musical, leitura de partituras, dedilhados, e ritmos variados. Você terá a oportunidade de desenvolver suas habilidades passo a passo, com exercícios práticos e músicas que tornarão o aprendizado mais dinâmico e divertido.\n\nAlém das técnicas de execução, você também aprenderá sobre a manutenção do instrumento, a importância da postura correta, e como desenvolver sua própria musicalidade e estilo. A prática regular e o acompanhamento próximo dos nossos instrutores garantirão que você progrida de maneira consistente e satisfatória.\n\nSeja para tocar em eventos, para amigos ou simplesmente por diversão, nossas aulas de violão são o caminho ideal para você aprimorar suas habilidades e mergulhar no mundo da música. Junte-se a nós e comece sua jornada musical!",
+    "teachers": [
+      "João",
+      "Pedro"
+    ],
+    "day": [
+      "Segunda",
+      "Quarta"
+    ],
+    "start_time": "18:00",
+    "end_time": "20:00",
+    "solidarity_price": "R$ 30,00"
+  },
+  {
+    "id": 2,
+    "name": "Teclado",
+    "small_description": "Domine o teclado com aulas práticas e teóricas.",
+    "description": "Nossas aulas de teclado são projetadas para oferecer uma experiência de aprendizado completa e envolvente. Com a orientação dos instrutores experientes Maria e Luiz, você aprenderá a ler partituras, dominar técnicas de mão e coordenação, e explorar uma ampla gama de estilos musicais, desde o clássico até o moderno.\n\nCada aula é estruturada para fornecer tanto a teoria musical necessária quanto a prática em teclado, garantindo que você desenvolva uma base sólida e habilidades avançadas. As sessões práticas incluem exercícios de escalas, acordes e ritmos, enquanto as sessões teóricas cobrem leitura de partituras, teoria musical e treinamento auditivo.\n\nAlém disso, nossas aulas incentivam a criatividade e a expressão pessoal, permitindo que você experimente composições próprias e improvisações. Seja você um iniciante absoluto ou alguém que deseja aprimorar suas habilidades, nosso curso de teclado oferece o suporte e os recursos necessários para que você atinja seus objetivos musicais.\n\nParticipe das nossas aulas e descubra a alegria de tocar teclado, desenvolvendo não apenas sua habilidade técnica, mas também sua paixão pela música.",
+    "teachers": [
+      "Maria",
+      "Luiz"
+    ],
+    "day": [
+      "Terça",
+      "Quinta"
+    ],
+    "start_time": "19:00",
+    "end_time": "21:00",
+    "solidarity_price": "R$ 30,00"
+  },
+  {
+    "id": 3,
+    "name": "Ballet Infantil",
+    "small_description": "Introdução ao ballet para crianças.",
+    "description": "A aula de Ballet Infantil é perfeita para crianças que desejam explorar o mundo da dança desde cedo. Nossos instrutores, Ana e Clara, são experientes e dedicadas a proporcionar um ambiente divertido e educativo. Durante as aulas, as crianças desenvolverão coordenação motora, flexibilidade, disciplina e confiança através de exercícios e coreografias criativas e envolventes.\n\nAs aulas são estruturadas para garantir que cada criança possa progredir no seu próprio ritmo, com atenção personalizada. Além de aprender técnicas de ballet clássico, os alunos terão a oportunidade de fazer novas amizades e expressar-se artisticamente.\n\n![Aula de Ballet](https://scontent.fplu37-1.fna.fbcdn.net/v/t39.30808-6/321296371_2316547011861077_2837309999449089028_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=X4h3G9lxxjcQ7kNvgF0Dxw_&_nc_ht=scontent.fplu37-1.fna&oh=00_AYDXDLaEDZi30So4K-8VzuDFACWund2k5bt4ILs7TO5zvw&oe=66791007)\n\nSe você deseja que seu filho desenvolva habilidades físicas e sociais em um ambiente alegre e acolhedor, a aula de Ballet Infantil é a escolha ideal.",
+    "teachers": [
+      "Ana",
+      "Clara"
+    ],
+    "day": [
+      "Segunda",
+      "Quarta"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:00",
+    "solidarity_price": "R$ 30,00"
+  },
+  {
+    "id": 4,
+    "name": "Ballet Adulto",
+    "small_description": "Aprimore sua técnica de ballet com aulas para adultos.",
+    "description": "As aulas de Ballet Adulto são perfeitas para quem deseja aprimorar suas habilidades de dança ou começar uma nova atividade física que trabalha o corpo e a mente. Com foco na técnica, força e flexibilidade, essas aulas proporcionam um excelente exercício físico, ajudando a melhorar a postura, a coordenação motora e a consciência corporal.\n\nSob a orientação das experientes instrutoras Ana e Clara, você terá a oportunidade de explorar movimentos graciosos e desafiadores, enquanto se diverte e faz novos amigos. O ambiente acolhedor e motivador incentiva alunos de todos os níveis, desde iniciantes até aqueles com experiência prévia em ballet, a alcançar seus objetivos pessoais e artísticos.\n\nAlém dos benefícios físicos, o ballet também é uma forma de expressão artística que promove o bem-estar mental, aliviando o estresse do dia a dia. Venha participar das nossas aulas de Ballet Adulto e descubra como essa arte milenar pode transformar sua vida, trazendo equilíbrio e harmonia.\n",
+    "teachers": [
+      "Ana",
+      "Clara"
+    ],
+    "day": [
+      "Terça",
+      "Quinta"
+    ],
+    "start_time": "20:00",
+    "end_time": "21:30",
+    "solidarity_price": "R$ 30,00"
+  },
+  {
+    "id": 5,
+    "name": "Jiu-Jitsu",
+    "small_description": "Aprenda técnicas de defesa pessoal e condicionamento físico.",
+    "description": "Participe das nossas aulas de Jiu-Jitsu e mergulhe em uma das artes marciais mais eficazes e respeitadas do mundo. Sob a orientação dos experientes instrutores Carlos e Roberto, você aprenderá desde as técnicas básicas até movimentos avançados de combate, com ênfase em defesa pessoal, controle do corpo e preparo físico.\n\nNossas aulas são projetadas para oferecer um treinamento completo, que inclui aquecimento, técnicas de solo, imobilizações e finalizações. Além de melhorar sua aptidão física, o Jiu-Jitsu também promove o desenvolvimento de habilidades mentais como disciplina, autocontrole e resiliência.\n\n![Aula de Jiu-Jitsu](https://scontent.fplu37-1.fna.fbcdn.net/v/t39.30808-6/320910794_1599590033788390_9161180739774687850_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=HIOE93axr7AQ7kNvgGHsJWy&_nc_ht=scontent.fplu37-1.fna&oh=00_AYDBWwagpC2NrABydtyVXaDCfm6UyKxW6nR948o5BmA9Bg&oe=6678D554)\n\nEste curso é adequado para todos os níveis, desde iniciantes até praticantes mais avançados, proporcionando um ambiente seguro e motivador para todos. Ao longo das aulas, você terá a oportunidade de se desafiar e crescer, tanto física quanto mentalmente, enquanto aprende a se defender e a controlar situações de conflito com eficácia.\n\nJunte-se a nós e descubra os inúmeros benefícios do Jiu-Jitsu, aprimorando sua saúde, segurança pessoal e bem-estar geral. Venha fazer parte dessa jornada de autodescoberta e empoderamento!",
+    "teachers": [
+      "Carlos",
+      "Roberto"
+    ],
+    "day": [
+      "Segunda",
+      "Sexta"
+    ],
+    "start_time": "19:00",
+    "end_time": "21:00",
+    "solidarity_price": "R$ 30,00"
+  },
+  {
+    "id": 6,
+    "name": "Crochê",
+    "small_description": "Desenvolva habilidades manuais e crie peças únicas.",
+    "description": "Nas aulas de Crochê, você terá a oportunidade de mergulhar no mundo das artes manuais e descobrir todo o potencial dessa técnica versátil e relaxante. Sob a orientação da experiente instrutora Mariana, aprenderá desde os pontos básicos até técnicas mais avançadas, permitindo a criação de uma variedade incrível de peças, como roupas, acessórios e itens de decoração para sua casa.\n\n![Aula de Crochê](https://scontent.fplu37-1.fna.fbcdn.net/v/t39.30808-6/320920193_5818536041537168_7549111007528882875_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=TEtugEDp6ygQ7kNvgHijkKk&_nc_ht=scontent.fplu37-1.fna&oh=00_AYC_1aMUktCcqYmUY1z_osSVo0EzZgLbuvmFnSPFM27d4g&oe=6678B005)\n\nNossas aulas são projetadas para oferecer um ambiente acolhedor e inspirador, onde você poderá desenvolver suas habilidades no seu próprio ritmo, compartilhando experiências e ideias com outros entusiastas do crochê. Além de ser uma atividade terapêutica que promove o bem-estar mental, o crochê também pode se tornar uma fonte de renda adicional ou um hobby gratificante.\n\nParticipe das nossas aulas de Crochê e transforme fios e agulhas em verdadeiras obras de arte, ao mesmo tempo em que desfruta de momentos de criatividade e descontração.",
+    "teachers": [
+      "Mariana"
+    ],
+    "day": [
+      "Quarta"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:00",
+    "solidarity_price": "R$ 30,00"
+  },
+  {
+    "id": 7,
+    "name": "Artes",
+    "small_description": "Explore sua criatividade com diversas técnicas de arte.",
+    "description": "As aulas de Artes são projetadas para proporcionar um ambiente inspirador onde você pode explorar sua criatividade e desenvolver suas habilidades artísticas. Sob a orientação dos talentosos instrutores Rafael e Sophia, você terá a oportunidade de experimentar uma ampla gama de técnicas, incluindo pintura, desenho, escultura e muito mais.\n\nNossas aulas são ideais para iniciantes que desejam descobrir o mundo da arte, bem como para aqueles que já possuem alguma experiência e desejam aprimorar suas habilidades. Cada sessão é estruturada para incentivar a expressão pessoal e a experimentação, permitindo que você encontre seu próprio estilo e voz artística.\n\nAlém de desenvolver habilidades técnicas, as aulas de Artes também focam em aspectos teóricos e históricos da arte, proporcionando uma compreensão mais profunda das diferentes correntes e movimentos artísticos. Você aprenderá a apreciar a arte de uma nova maneira, ao mesmo tempo em que cria suas próprias obras.\n\nParticipe das nossas aulas de Artes e descubra como a arte pode ser uma forma poderosa de comunicação e expressão, enriquecendo sua vida com criatividade e beleza.",
+    "teachers": [
+      "Rafael",
+      "Sophia"
+    ],
+    "day": [
+      "Segunda",
+      "Quarta"
+    ],
+    "start_time": "17:00",
+    "end_time": "19:00",
+    "solidarity_price": "R$ 30,00"
+  },
+  {
+    "id": 8,
+    "name": "Dança",
+    "small_description": "Dance diversos estilos com técnicas para todos os níveis.",
+    "description": "As aulas de Dança são uma celebração do movimento e da expressão corporal, abrangendo uma variedade de estilos que incluem jazz, hip hop, dança de salão e contemporânea. Com foco em técnica, ritmo e liberdade de expressão, nossos instrutores Camila e Lucas conduzem as aulas de forma dinâmica e inspiradora, adaptando-se aos diferentes níveis de habilidade dos participantes.\n\nExplore novas formas de movimento, desenvolva sua coordenação e descubra o prazer de se expressar através da dança. Esteja você buscando um novo hobby, melhorar suas habilidades existentes ou simplesmente se divertir, nossas aulas de Dança oferecem um espaço inclusivo e acolhedor para todos os apaixonados pela arte do movimento.",
+    "teachers": [
+      "Camila",
+      "Lucas"
+    ],
+    "day": [
+      "Terça",
+      "Quinta"
+    ],
+    "start_time": "18:00",
+    "end_time": "20:00",
+    "solidarity_price": "R$ 30,00"
+  },
+  {
+    "id": 9,
+    "name": "Taekwondo Infantil",
+    "small_description": "Aulas de Taekwondo para crianças.",
+    "description": "As aulas de Taekwondo infantil são projetadas para ensinar disciplina, coordenação e autoconfiança às crianças através de técnicas e exercícios adaptados à idade. Sob a orientação dos instrutores Fernando e Paulo, os alunos aprendem não apenas os fundamentos técnicos do Taekwondo, mas também valores como respeito, perseverança e autocontrole.\n\n![Aula de Taekwondo](https://scontent.fplu37-1.fna.fbcdn.net/v/t39.30808-6/320429220_655422383046593_7653126192235353547_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ni1Fko4xNZoQ7kNvgGwQwB_&_nc_ht=scontent.fplu37-1.fna&oh=00_AYBakPBKcWEYaz62CPiMfVAyvJbJnbeUC_r3LJZOqTrTRA&oe=6678AE48)\n\n O ambiente de aprendizado é seguro e estimulante, promovendo o desenvolvimento físico e emocional das crianças de forma equilibrada.\n\n",
+    "teachers": [
+      "Fernando",
+      "Paulo"
+    ],
+    "day": [
+      "Segunda",
+      "Quarta"
+    ],
+    "start_time": "15:00",
+    "end_time": "16:00",
+    "solidarity_price": "R$ 30,00"
+  },
+  {
+    "id": 10,
+    "name": "Taekwondo Adulto",
+    "small_description": "Treinamento de Taekwondo para adultos.",
+    "description": "As aulas de Taekwondo para adultos são voltadas para o treinamento de técnicas de combate, defesa pessoal e condicionamento físico. Sob a orientação dos instrutores Fernando e Paulo, os participantes desenvolvem habilidades que promovem não apenas a forma física, mas também o bem-estar mental e emocional. As sessões são projetadas para oferecer um excelente exercício físico enquanto proporcionam técnicas que podem ser aplicadas na vida cotidiana, aumentando a confiança e a capacidade de autodefesa dos alunos.",
+    "teachers": [
+      "Fernando",
+      "Paulo"
+    ],
+    "day": [
+      "Terça",
+      "Quinta"
+    ],
+    "start_time": "19:00",
+    "end_time": "20:30",
+    "solidarity_price": "R$ 30,00"
+  },
+  {
+    "id": 11,
+    "name": "Atividades Físicas Infantil",
+    "small_description": "Exercícios divertidos para crianças.",
+    "description": "As aulas de atividades físicas infantis são projetadas para proporcionar diversão e desenvolvimento físico para crianças. Ministradas pela professora Juliana, as atividades incluem uma variedade de exercícios lúdicos que promovem coordenação motora, equilíbrio e hábitos saudáveis desde cedo. Com uma abordagem divertida e educativa, as crianças têm a oportunidade de aprender brincando, estimulando o bem-estar físico e mental.",
+    "teachers": [
+      "Juliana"
+    ],
+    "day": [
+      "Quarta",
+      "Sexta"
+    ],
+    "start_time": "16:00",
+    "end_time": "17:00",
+    "solidarity_price": "R$ 30,00"
+  },
+  {
+    "id": 12,
+    "name": "Atividades Física Adulto",
+    "small_description": "Manter a forma com atividades físicas variadas.",
+    "description": "Participe das aulas de atividades físicas para adultos e mantenha-se ativo de maneira divertida e eficaz. Sob a orientação da professora Juliana, as aulas são focadas em fortalecimento muscular, alongamento e condicionamento físico, proporcionando benefícios para a saúde geral e bem-estar. Ideal para quem busca melhorar a resistência física, flexibilidade e qualidade de vida, as atividades são adaptadas para todos os níveis de condicionamento, promovendo uma rotina de exercícios variada e gratificante.",
+    "teachers": [
+      "Juliana"
+    ],
+    "day": [
+      "Terça",
+      "Quinta"
+    ],
+    "start_time": "18:00",
+    "end_time": "19:00",
+    "solidarity_price": "R$ 30,00"
+  }
+]

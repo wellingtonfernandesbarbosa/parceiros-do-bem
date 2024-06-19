@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom";
 
-import courses from "@/data/courses.json";
 import { useUpdateUrl } from "@/hooks";
-import DetailSection from "@/components/DetailSection";
+import courses from "@/data/courses.json";
 import ScrollToTop from "@/util/scrollToTop";
+import DetailSection from "@/components/DetailSection";
 
 const CoursePage = () => {
   const param = Number(useParams().id);
