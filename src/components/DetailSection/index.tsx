@@ -7,7 +7,7 @@ interface DetailSectionProps {
   name: string;
   small_description: string;
   description: string;
-  teachers: string[];
+  teachers?: string[];
   day: string[];
   start_time: string;
   end_time: string;
@@ -20,9 +20,11 @@ const DetailSection = ({ detail }: { detail: DetailSectionProps }) => {
       <header className={styles.DetailSection__container__header}>
         <Title2>{detail?.name}</Title2>
         <div className={styles.DetailSection__container__header__info}>
-          <div>
-            Instrutores: <strong>{detail?.teachers.join(", ")}</strong>
-          </div>
+          {detail.teachers && (
+            <div>
+              Instrutores: <strong>{detail?.teachers.join(", ")}</strong>
+            </div>
+          )}
           <div>
             {detail?.day.length === 1 ? "Dia" : "Dias"}:{" "}
             <strong>

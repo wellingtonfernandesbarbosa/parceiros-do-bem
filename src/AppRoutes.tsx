@@ -6,19 +6,20 @@ import Home from "@/pages/Home";
 import Team from "@/pages/TeamPage";
 import News from "@/pages/NewsPage";
 import About from "@/pages/AboutPage";
-import Events from "@/pages/EventsPage";
-import Courses from "@/pages/CoursesPage";
-import Contact from "@/pages/ContactPage";
-import NotFound from "@/pages/NotFoundPage";
-import DefaultPage from "@/pages/DefaultPage";
-
 import Galery from "@/pages/GaleryPage";
+import Events from "@/pages/EventsPage";
 import Header from "@/components/Header";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import Courses from "@/pages/CoursesPage";
+import Contact from "@/pages/ContactPage";
+import ClassPage from "@/pages/ClassPage";
+import NotFound from "@/pages/NotFoundPage";
 import CoursePage from "@/pages/CoursePage";
 import ClassesPage from "@/pages/ClassesPage";
-import ClassPage from "./pages/ClassPage";
+import DefaultPage from "@/pages/DefaultPage";
+import ServicePage from "@/pages/ServicePage";
+import ServicesPage from "@/pages/ServicesPage";
 
 export default function AppRoutes() {
   const [screenWidth, setScreenWidth] = useState<number>(window.innerWidth);
@@ -50,6 +51,8 @@ export default function AppRoutes() {
             <Route path="aulas/:id" element={<ClassPage />} />
             <Route path="eventos" element={<Events />} />
             <Route path="galeria" element={<Galery />} />
+            <Route path="servicos" element={<ServicesPage />} />
+            <Route path="servicos/:id" element={<ServicePage />} />
             <Route path="equipe" element={<Team />} />
             <Route path="noticias" element={<News />} />
             <Route path="contato" element={<Contact />} />

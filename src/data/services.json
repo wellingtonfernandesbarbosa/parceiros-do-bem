@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "name": "Corte de cabelo",
+    "small_description": "Serviço de corte de cabelo gratuito.",
+    "description": "Oferecemos cortes de cabelo gratuitos para a comunidade, realizados por profissionais experientes, com horários flexíveis ao longo do dia.",
+    "day": [
+      "Segunda",
+      "Terça", 
+      "Quarta",
+      "Quinta",
+      "Sexta",
+      "Sabado"
+    ],
+    "start_time": "09:00",
+    "end_time": "18:00",
+    "solidarity_price": "R$ 0,00"
+  },
+  {
+    "id": 2,
+    "name": "Atividades anaeróbicas e aeróbicas de jovens da terceira idade",
+    "small_description": "Exercícios físicos para idosos.",
+    "description": "Atividades físicas que incluem exercícios anaeróbicos e aeróbicos, especialmente projetados para promover a saúde e bem-estar dos jovens da terceira idade.",
+    "day": [
+      "Terça",
+      "Quinta"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:00",
+    "solidarity_price": "R$ 0,00"
+  },
+  {
+    "id": 3,
+    "name": "Cineminha",
+    "small_description": "Sessões de cinema gratuitas.",
+    "description": "Sessões de cinema gratuitas para todas as idades, apresentando uma variedade de filmes em um ambiente confortável e acessível.",
+    "day": [
+      "Sábado"
+    ],
+    "start_time": "15:00",
+    "end_time": "17:00",
+    "solidarity_price": "R$ 0,00"
+  },
+  {
+    "id": 4,
+    "name": "Fisioterapia",
+    "small_description": "Sessões de fisioterapia gratuitas.",
+    "description": "Serviço de fisioterapia para ajudar na recuperação de lesões, melhoria da mobilidade e alívio de dores, realizado por profissionais qualificados.",
+    "day": [
+      "Segunda",
+      "Sexta"
+    ],
+    "start_time": "10:00",
+    "end_time": "12:00",
+    "solidarity_price": "R$ 0,00"
+  },
+  {
+    "id": 5,
+    "name": "Massoterapia",
+    "small_description": "Sessões de massoterapia gratuitas.",
+    "description": "Sessões de massoterapia para relaxamento muscular e alívio do estresse, realizadas por massoterapeutas profissionais.",
+    "day": [
+      "Quarta"
+    ],
+    "start_time": "14:00",
+    "end_time": "16:00",
+    "solidarity_price": "R$ 0,00"
+  },
+  {
+    "id": 6,
+    "name": "Psicologia",
+    "small_description": "Atendimento psicológico gratuito.",
+    "description": "Atendimento psicológico gratuito para ajudar a lidar com questões emocionais e mentais, realizado por psicólogos experientes.",
+    "day": [
+      "Terça",
+      "Quinta"
+    ],
+    "start_time": "13:00",
+    "end_time": "15:00",
+    "solidarity_price": "R$ 0,00"
+  },
+  {
+    "id": 7,
+    "name": "Terapia ocupacional",
+    "small_description": "Sessões de terapia ocupacional gratuitas.",
+    "description": "Sessões de terapia ocupacional para promover a independência e a qualidade de vida através de atividades terapêuticas e de reabilitação.",
+    "day": [
+      "Segunda",
+      "Quarta"
+    ],
+    "start_time": "10:00",
+    "end_time": "12:00",
+    "solidarity_price": "R$ 0,00"
+  },
+  {
+    "id": 8,
+    "name": "Acupuntura",
+    "small_description": "Sessões de acupuntura gratuitas.",
+    "description": "Sessões de acupuntura para alívio de dores, estresse e outros problemas de saúde, realizadas por acupunturistas profissionais.",
+    "day": [
+      "Terça",
+      "Quinta"
+    ],
+    "start_time": "09:00",
+    "end_time": "11:00",
+    "solidarity_price": "R$ 0,00"
+  },
+  {
+    "id": 9,
+    "name": "Pilates",
+    "small_description": "Aulas de Pilates gratuitas.",
+    "description": "Aulas de Pilates que focam na melhora da flexibilidade, fortalecimento muscular e equilíbrio, ideais para todas as idades.",
+    "day": [
+      "Segunda",
+      "Sexta"
+    ],
+    "start_time": "08:00",
+    "end_time": "09:00",
+    "solidarity_price": "R$ 0,00"
+  }
+]

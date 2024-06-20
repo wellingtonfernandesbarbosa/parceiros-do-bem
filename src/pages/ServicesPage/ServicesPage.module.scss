@@ -1,0 +1,57 @@
+.ServicesPage {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 32px 16px;
+
+    &__header {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding-bottom: 64px;
+      text-align: center;
+
+      h2 {
+        color: var(--primary-color);
+      }
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+
+      &__item {
+        a {
+          display: block;
+          width: fit-content;
+          h3 {
+            color: var(--primary-color);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ServicesPage {
+    &__container {
+      &__header {
+        padding-bottom: 32px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ServicesPage {
+    &__container {
+      &__header {
+        padding-bottom: 16px;
+      }
+    }
+  }
+}
