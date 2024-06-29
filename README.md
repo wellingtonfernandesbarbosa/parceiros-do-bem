@@ -1,7 +1,7 @@
 # Parceiros do Bem
 
 <p align="center">
-  <img src="https://parceirosdobem.vercel.app/assets/logo-DZyAMAAs.png" alt="logo da ong" width="400px">
+  <img src="https://parceirosdobem.vercel.app/assets/logo-De6VKIk8.png" alt="logo da ong" width="400px">
 </p>
 
 ## Descrição
@@ -9,10 +9,11 @@ O "Parceiros do Bem" é um aplicativo web desenvolvido em React e TypeScript par
 
 ## Funcionalidades Principais
 - Informação sobre a ONG
-- Cursos disponíveis
-- Eventos disponíveis
-- Divulgação de notícias
-- Localização da ONG
+- Cursos
+- Aulas
+- Serviços gratuítos
+- Galeria de fotos
+- Contatos
 
 ## Instalação e Uso
 1. Clone este repositório: `git clone https://github.com/wellingtonfernandesbarbosa/parceiros-do-bem.git`
