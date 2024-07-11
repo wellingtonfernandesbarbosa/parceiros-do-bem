@@ -1,7 +1,7 @@
 import styles from "./CallToAction.module.scss";
-import EventImage from "@/assets/evento.webp";
 import CourseImage from "@/assets/curso.webp";
-import TeamImage from "@/assets/equipe.webp";
+import ClassImage from "@/assets/classImage.webp";
+import ServiceImage from "@/assets/serviceImage.webp";
 import { Link } from "react-router-dom";
 
 interface CallToAction {
@@ -22,18 +22,18 @@ const callToAction: CallToAction[] = [
     backgroundImage: CourseImage,
   },
   {
-    title: "Eventos",
-    text: "Confira os próximos eventos em nossa agenda.",
-    actionLink: "/eventos",
-    buttonText: "Eventos",
-    backgroundImage: EventImage,
+    title: "Aulas",
+    text: "Conheça nossas aulas disponíveis.",
+    actionLink: "/aulas",
+    buttonText: "Aulas",
+    backgroundImage: ClassImage,
   },
   {
-    title: "Equipe",
-    text: "Conheça nossa equipe de profissionais.",
-    actionLink: "/equipe",
-    buttonText: "Equipe",
-    backgroundImage: TeamImage,
+    title: "Serviços",
+    text: "Conheça nossos serviços disponíveis.",
+    actionLink: "/servicos",
+    buttonText: "Serviços",
+    backgroundImage: ServiceImage,
   },
 ];
 
