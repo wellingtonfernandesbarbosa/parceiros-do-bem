@@ -21,6 +21,8 @@ import DefaultPage from "@/pages/DefaultPage";
 import ServicePage from "@/pages/ServicePage";
 import ServicesPage from "@/pages/ServicesPage";
 
+import Styles from "./AppRoutes.module.scss";
+
 export default function AppRoutes() {
   const [screenWidth, setScreenWidth] = useState<number>(window.innerWidth);
 
@@ -39,27 +41,29 @@ export default function AppRoutes() {
   return (
     <BrowserRouter>
       <RecoilRoot>
-        <Header />
-        {screenWidth > 600 && <NavBar />}
-        <Routes>
-          <Route path="/" element={<DefaultPage />}>
-            <Route index element={<Home />} />
-            <Route path="sobre" element={<About />} />
-            <Route path="cursos" element={<Courses />} />
-            <Route path="cursos/:id" element={<CoursePage />} />
-            <Route path="aulas" element={<ClassesPage />} />
-            <Route path="aulas/:id" element={<ClassPage />} />
-            <Route path="eventos" element={<Events />} />
-            <Route path="galeria" element={<Galery />} />
-            <Route path="servicos" element={<ServicesPage />} />
-            <Route path="servicos/:id" element={<ServicePage />} />
-            <Route path="equipe" element={<Team />} />
-            <Route path="noticias" element={<News />} />
-            <Route path="contato" element={<Contact />} />
-            <Route path="*" element={<NotFound />} />
-          </Route>
-        </Routes>
-        <Footer />
+        <div className={Styles.container}>
+          <Header />
+          {screenWidth > 600 && <NavBar />}
+          <Routes>
+            <Route path="/" element={<DefaultPage />}>
+              <Route index element={<Home />} />
+              <Route path="sobre" element={<About />} />
+              <Route path="cursos" element={<Courses />} />
+              <Route path="cursos/:id" element={<CoursePage />} />
+              <Route path="aulas" element={<ClassesPage />} />
+              <Route path="aulas/:id" element={<ClassPage />} />
+              <Route path="eventos" element={<Events />} />
+              <Route path="galeria" element={<Galery />} />
+              <Route path="servicos" element={<ServicesPage />} />
+              <Route path="servicos/:id" element={<ServicePage />} />
+              <Route path="equipe" element={<Team />} />
+              <Route path="noticias" element={<News />} />
+              <Route path="contato" element={<Contact />} />
+              <Route path="*" element={<NotFound />} />
+            </Route>
+          </Routes>
+          <Footer />
+        </div>
       </RecoilRoot>
     </BrowserRouter>
   );
