@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Corte de cabelo",
     "small_description": "Serviço de corte de cabelo gratuito.",
-    "description": "Oferecemos cortes de cabelo gratuitos para a comunidade, realizados por profissionais experientes, com horários flexíveis ao longo do dia.",
+    "description": "Oferecemos cortes de cabelo gratuitos para a comunidade, realizados por profissionais experientes, com horários flexíveis ao longo do dia.\n\n![Serviço de corte de cabelo](/assets/services/hairCutService.webp)",
     "day": [
       "Segunda",
       "Terça", 

@@ -68,7 +68,7 @@
   },
   {
     "id": 5,
-    "name": "Curso de Trança",
+    "name": "Trança",
     "small_description": "Aprenda diversas técnicas de trança e encante suas clientes.",
     "description": "Descubra o mundo das tranças com nosso curso especializado, que abrange desde técnicas simples até as mais complexas, adequadas para qualquer ocasião.\n\n> Conheça Marcos e Rita, nossos instrutores experientes, que irão guiá-lo passo a passo na criação de penteados incríveis que vão impressionar. Aprenda não apenas a técnica, mas também dicas valiosas sobre cuidados com o cabelo e tendências atuais em penteados.",
     "teachers": [
@@ -84,7 +84,7 @@
   },
   {
     "id": 6,
-    "name": "Curso de Depilação",
+    "name": "Depilação",
     "small_description": "Torne-se um profissional de depilação e ofereça um serviço completo.",
     "description": "Aprenda as técnicas essenciais de depilação corporal e facial com o curso completo de Depilação. Este curso abrangente cobre métodos tradicionais e avançados, proporcionando habilidades práticas e seguras para você se destacar no mercado. Com as instrutoras experientes Paula e Sofia, você receberá orientações detalhadas e práticas para dominar todas as técnicas necessárias.",
     "teachers": [
@@ -182,7 +182,7 @@
   "id": 12,
   "name": "Inglês Adulto",
   "small_description": "Desenvolva suas habilidades no idioma inglês com nosso curso para adultos.",
-  "description": "Explore o mundo do idioma inglês com nosso curso voltado para adultos. Sob a orientação dos instrutores Amanda e João, você terá a oportunidade de aprimorar suas habilidades de conversação, escrita e compreensão auditiva.\n\n![Aula de Inglês](https://scontent.fplu37-1.fna.fbcdn.net/v/t39.30808-6/320397861_667133341625214_2423603025283419559_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=YvKBRuHfLswQ7kNvgHkd2K7&_nc_ht=scontent.fplu37-1.fna&oh=00_AYDBv1xs6dEEo7zudWD_auU190XcF6eLOrdIEyXj07T92w&oe=6678DC0E)\n\n Ideal para iniciantes ou para quem deseja aprofundar seus conhecimentos, as aulas são projetadas para oferecer uma experiência de aprendizado dinâmica e interativa, focada em práticas que facilitam a comunicação eficaz em diferentes contextos.",
+  "description": "Explore o mundo do idioma inglês com nosso curso voltado para adultos. Sob a orientação dos instrutores Amanda e João, você terá a oportunidade de aprimorar suas habilidades de conversação, escrita e compreensão auditiva.\n\n![Aula de Inglês](/assets/courses/englishClass.jpg)\n\n Ideal para iniciantes ou para quem deseja aprofundar seus conhecimentos, as aulas são projetadas para oferecer uma experiência de aprendizado dinâmica e interativa, focada em práticas que facilitam a comunicação eficaz em diferentes contextos.",
   "teachers": [
     "Amanda",
     "João"
@@ -197,7 +197,7 @@
   "id": 13,
   "name": "Inglês Infantil",
   "small_description": "Introduza seu filho ao idioma inglês de maneira divertida e interativa.",
-  "description": "O curso de Inglês Infantil proporciona uma introdução ao idioma de forma envolvente e interativa para crianças. Sob a orientação dos instrutores Paulo e Sara, as aulas são repletas de jogos e atividades lúdicas que estimulam o aprendizado e a familiarização com o inglês desde cedo.\n\n![Aula de Inglês](https://scontent.fplu37-1.fna.fbcdn.net/v/t39.30808-6/320397861_667133341625214_2423603025283419559_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=YvKBRuHfLswQ7kNvgHkd2K7&_nc_ht=scontent.fplu37-1.fna&oh=00_AYDBv1xs6dEEo7zudWD_auU190XcF6eLOrdIEyXj07T92w&oe=6678DC0E)\n\n Ideal para crianças que desejam começar a explorar um novo idioma de maneira natural e divertida.",
+  "description": "O curso de Inglês Infantil proporciona uma introdução ao idioma de forma envolvente e interativa para crianças. Sob a orientação dos instrutores Paulo e Sara, as aulas são repletas de jogos e atividades lúdicas que estimulam o aprendizado e a familiarização com o inglês desde cedo.\n\n![Aula de Inglês](/assets/courses/englishClass.jpg)\n\n Ideal para crianças que desejam começar a explorar um novo idioma de maneira natural e divertida.",
   "teachers": [
     "Paulo",
     "Sara"
